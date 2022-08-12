@@ -1,0 +1,131 @@
+.banner {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 10%;
+  z-index: 10000;
+
+}
+
+/*
+* computer and tree
+*/
+.logoS {
+  width: 450px;
+  height: 450px;
+  
+  margin-top: 0;
+  padding: 0;
+  
+  position: relative;
+  
+  right: 60px;
+  
+  top: 50px;
+
+}
+
+/*
+* tree is logo
+*/
+.Logo {
+  /* width: 60%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 250px;
+  top: 500px; */
+}
+
+.logoS img {
+  margin: 0;
+}
+
+.sym {
+  z-index: 4;
+  width: 120px;
+  right: 17px;
+  top: 35px;
+  transition: 0.4s;
+}
+
+
+
+.logoS:hover .logo3 {
+  top: 96px;
+}
+
+.logoS:hover .logo2 {
+  top: 51px;
+}
+
+.LogoSectionAbout {
+  text-align: left;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+}
+
+.LogoSectionAbout h1 {
+  font-weight: 700;
+  text-align: left;
+}
+
+
+.Logo {
+
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 570px) {
+  .logoS {
+    margin-top: 10rem;
+    margin-bottom: -10rem;
+  }
+
+  .Logo {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .logoS {
+    margin-top: 10rem;
+    margin-bottom: -10rem;
+    width: 300px;
+    height: 300px;
+    right: -22px;
+    top: 3px;
+    /* background-color: black; */
+  }
+
+  .Logo {
+    margin: 0 auto;
+  }
+}
