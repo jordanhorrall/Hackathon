@@ -2,8 +2,6 @@ import React from 'react';
 import './faq.css';
 import ReactDOM from 'react-dom';
 
-
-
 function FAQHeading() {
   return <h1 className="faqhead">FAQ</h1>;
 }
@@ -86,10 +84,6 @@ class Accordion extends React.Component {
       </div>
     );
   }
-
-
-
-
 }
 
 export {Accordion, FAQHeading};

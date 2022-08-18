@@ -42,16 +42,16 @@ function Myinfo() {
       <div className="buttom-group">
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
-          <Btn class="sponsor_btn" type="Judge/Mentor" overlay="Link coming soon!" />
+          <Btn
+            class="sponsor_btn"
+            type="Judge/Mentor"
+            overlay="Link coming soon!"
+          />
         </a>
 
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
-          <Btn
-            class="register"
-            type="Register"
-            overlay="Link coming soon!"
-          />
+          <Btn class="register" type="Register" overlay="Link coming soon!" />
         </a>
       </div>
     </div>

@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import './countDown.scss';
 import Countdown from 'react-countdown';
-import { useEffect, useState } from 'react';
-import { calculateTimeLeft } from './utils';
-
+import {useEffect, useState} from 'react';
+import {calculateTimeLeft} from './utils';
 
 export default function Counter() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
@@ -39,4 +38,4 @@ export default function Counter() {
       </div>
     </div>
   );
-};
+}

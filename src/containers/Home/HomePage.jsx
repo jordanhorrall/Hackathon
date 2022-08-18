@@ -40,8 +40,6 @@ import plainBack from './plainBack.png';
 import lightPlain from './lightPlain.png';
 import wavy from './wavy.png';
 
-
-
 function SponsorGroup(props) {
   return (
     <Row>
@@ -101,7 +99,7 @@ export default function HomePage() {
   UseMedia('min-width', 1000, setMedia);
 
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${lightPlain})`}}> 
+    <div className="Whole_div" style={{backgroundImage: `url(${lightPlain})`}}>
       <div className="color_sectiom" id="home">
         <Container fluid>
           <Row className="Row info">
@@ -133,7 +131,7 @@ export default function HomePage() {
 
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs" id="faq">
-        <FAQHeading type="FAQ" />
+          <FAQHeading type="FAQ" />
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
@@ -159,13 +157,10 @@ export default function HomePage() {
         </Row>
         {/* ********Sponsors ending here ***** */}
 
-        
-
-        
         {/* {media && <Birds top="120vh" left="0vh" type="" />} */}
 
         {/* ********Team here ***** */}
-        
+
         <h1 id="team">Our Team</h1>
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
@@ -188,8 +183,7 @@ export default function HomePage() {
           />
         )} */}
 
-
-       {/* {JudgesInfo.map(TeamMembers)} */}
+        {/* {JudgesInfo.map(TeamMembers)} */}
 
         {/* ********Team ending here ***** */}
       </Container>

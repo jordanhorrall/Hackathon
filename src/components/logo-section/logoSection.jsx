@@ -2,7 +2,6 @@ import React from 'react';
 import './logoSection.css';
 import sym from './sym.png';
 
-
 import pic from './computerGraphic.png';
 import hviolet from './hviolet.png';
 import tree from './treeLogo.PNG';
@@ -18,10 +17,9 @@ function LogoSectionAbout() {
   );
 }
 
-
 /*
-* tree
-*/
+ * tree
+ */
 function Logo() {
   var myLogo;
   if (MIDDLE_SECTION.LOGO_EFFECT) {
@@ -40,10 +38,9 @@ function Logo() {
   return myLogo;
 }
 
-
 /*
-*  logo on top of front page LogoS computer
-*/
+ *  logo on top of front page LogoS computer
+ */
 function Logopic() {
   var picLogo;
   if (MIDDLE_SECTION.LOGO_EFFECT) {
@@ -56,15 +53,10 @@ function Logopic() {
     picLogo = (
       <div className="logoS">
         <img className="Logo sym" src={sym} alt="HackViolet" />
-
       </div>
     );
   }
   return picLogo;
 }
 
-
-
-
 export {Logo, LogoSectionAbout, Logopic};
-

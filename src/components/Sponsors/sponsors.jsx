@@ -20,16 +20,20 @@ function SponsorUS() {
     <div className="joinT sponsorUS">
       <h3>Interested in sponsoring for 2023?</h3>
       <a href={SOCIALS.email}>
-        <Btn className="sponsor_btn" type="Sponsor us!" overlay="More information" />
+        <Btn
+          className="sponsor_btn"
+          type="Sponsor us!"
+          overlay="More information"
+        />
       </a>{' '}
     </div>
   );
 }
 
 function SponsorSpace() {
-  <div className = "space">
+  <div className="space">
     <h4> </h4>
-  </div>
+  </div>;
 }
 
 export {SponsorsHead, Sponsor, SponsorUS, SponsorSpace};

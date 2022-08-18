@@ -85,13 +85,17 @@ export default function Footer() {
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Judge/Mentor" class="Volunteer" overlay="Link coming soon!" />
+              <Btn
+                type="Judge/Mentor"
+                class="Volunteer"
+                overlay="Link coming soon!"
+              />
             </a>
           )}
         </div>
         <div className="footer_info">
           <p>
-          Still have questions? Email us at {' '}
+            Still have questions? Email us at{' '}
             <a href={SOCIALS.email}>
               <em>{SOCIALS.mail}</em>
             </a>{' '}
@@ -107,12 +111,8 @@ export default function Footer() {
               <p>MLH Code of Conduct</p>
             </a>
           )}
-          {FOOTER.Terms_of_use.required && (
-            
-              <p>© Copyright 2022 HackViolet</p>
-          
-          )}
-          { <p>Made with 💖</p> /*💗❤️💜 */}
+          {FOOTER.Terms_of_use.required && <p>© Copyright 2022 HackViolet</p>}
+          {<p>Made with 💖</p> /*💗❤️💜 */}
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />

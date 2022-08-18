@@ -7,7 +7,6 @@ import logoClose from './ham-c.svg';
 import hamLogo from './ham.svg';
 import './styles.scss';
 
-
 const Wrapper = styled.div`
   display: block;
   width: 40%;
@@ -23,7 +22,7 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: 35%;
-      background-color: '#44409E'; 
+      background-color: '#44409E';
     }
   }
 `;
@@ -36,7 +35,7 @@ const NAVBAR = ({}) => {
 
   const listenScrollEvent = e => {
     if (window.scrollY > 800) {
-      setColor('#E0D9F1');  /* if you scroll navbar changes to these colors */
+      setColor('#E0D9F1'); /* if you scroll navbar changes to these colors */
     } else {
       setColor('#E0D9F1');
     }
@@ -71,8 +70,11 @@ const NAVBAR = ({}) => {
     <Router>
       <nav className="nav_bar" style={{backgroundColor: color}}>
         <Wrapper toggle={toggle}>
-          
-          <div className="nav-content" ref={navigation} style={{backgroundColor: color}}>
+          <div
+            className="nav-content"
+            ref={navigation}
+            style={{backgroundColor: color}}
+          >
             <ul>
               <li>
                 <Link to={`#home`}>
