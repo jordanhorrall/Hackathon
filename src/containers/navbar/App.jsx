@@ -117,7 +117,7 @@ const NAVBAR = ({}) => {
         />
       </nav>
 
-      <HomePage/>
+      <HomePage />
     </Router>
   );
 };
