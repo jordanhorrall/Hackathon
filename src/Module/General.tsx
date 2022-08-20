@@ -43,7 +43,7 @@ import jan from './Assets/teami/jan.jpg';
  */
 const TOP_SECTION = {
   TITLE: 'HackViolet 2023',
-  Typed_effect: ['Hack to Empower.', 'Hack to Win.'],
+  //Typed_effect: 'Hack to Empower.',
   SHORT_DESCRIPTION:
     'Join us on February 4-5th, 2023 at the Virginia Tech campus for a weekend of innovation and fun!',
   IMG_SRC:

@@ -35,10 +35,8 @@ import {
 } from '../../Module/General';
 
 import './about.css';
-import pattern from './pattern4.png';
-import plainBack from './plainBack.png';
 import lightPlain from './lightPlain.png';
-import wavy from './wavy.png';
+
 
 function SponsorGroup(props) {
   return (

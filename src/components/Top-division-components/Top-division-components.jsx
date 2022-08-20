@@ -1,6 +1,6 @@
 import React from 'react';
 import {SOCIALS, TOP_SECTION} from '../../Module/General';
-import MytypedComponent from '../typing-effect/typing.js';
+//import MytypedComponent from '../typing-effect/typing.js';
 import './top-division-c.css';
 
 function Btn(props) {
@@ -19,7 +19,7 @@ function About() {
   return (
     <div className="AboutMe">
       <h2>{TOP_SECTION.TITLE}</h2>
-      <MytypedComponent />
+      {/* <MytypedComponent /> */}
     </div>
   );
 }
