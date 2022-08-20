@@ -33,7 +33,7 @@ import {
   TeamInfo,
   TOP_SECTION
 } from '../../Module/General';
-import MyCalender from '../calender';
+
 import './about.css';
 import pattern from './pattern4.png';
 import plainBack from './plainBack.png';
