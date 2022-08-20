@@ -37,7 +37,6 @@ import {
 import './about.css';
 import lightPlain from './lightPlain.png';
 
-
 function SponsorGroup(props) {
   return (
     <Row>

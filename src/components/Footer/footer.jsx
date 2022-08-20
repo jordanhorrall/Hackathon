@@ -12,20 +12,20 @@ import {Btn} from '../Top-division-components/Top-division-components.jsx';
 import cross from './cross.svg';
 import {SOCIALS, TOP_SECTION, FOOTER} from '../../Module/General';
 
-function GithubTemplate({hideTemplate}) {
-  return (
-    <div className="template">
-      <div className="template-left">
-        <p>
-          Subscribe to our{' '}
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>email list</a>,
-          to get updates on our hackathon!
-        </p>
-      </div>
-      <img onClick={hideTemplate} src={cross} />
-    </div>
-  );
-}
+// function GithubTemplate({hideTemplate}) {
+//   return (
+//     <div className="template">
+//       <div className="template-left">
+//         <p>
+//           Subscribe to our{' '}
+//           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>email list</a>,
+//           to get updates on our hackathon!
+//         </p>
+//       </div>
+//       <img onClick={hideTemplate} src={cross} />
+//     </div>
+//   );
+// }
 
 export default function Footer() {
   const [template, setTemplate] = useState(false);
@@ -114,9 +114,9 @@ export default function Footer() {
           {FOOTER.Terms_of_use.required && <p>© Copyright 2022 HackViolet</p>}
           {<p>Made with 💖</p> /*💗❤️💜 */}
         </div>
-        {template && viewTemplate && (
+        {/* {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
-        )}
+        )} */}
       </div>
     </div>
   );

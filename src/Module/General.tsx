@@ -37,6 +37,7 @@ import vivien from './Assets/teami/vivien.jpg';
 import aditya from './Assets/teami/aditya.jpg';
 import kaylin from './Assets/teami/kaylin.jpg';
 import jan from './Assets/teami/jan.jpg';
+import generic from './Assets/teami/notAvailable.png';
 
 /*
  *  Text and links on home page
@@ -350,7 +351,7 @@ const TeamInfo = [
       role: 'Gurleen Singh - Company Relations',
       github: '',
       linkedin: 'https://www.linkedin.com/in/gurleen-singh-in/',
-      img: morgan
+      img: generic
     }
   ],
   [

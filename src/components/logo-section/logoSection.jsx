@@ -8,6 +8,7 @@ import tree from './treeLogo.PNG';
 
 import {MIDDLE_SECTION} from '../../Module/General';
 
+//middle section 
 function LogoSectionAbout() {
   return (
     <div className="LogoSectionAbout">

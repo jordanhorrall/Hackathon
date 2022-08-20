@@ -118,7 +118,8 @@
   font-size: 6rem;
   margin-bottom: 5rem;
   margin-top: 3rem;
-  color: #e0d9f1;
+  font-family: 'Nunito', sans-serif;
+    color: #e0d9f1;
  -webkit-text-stroke: 0.5px #44409E;
 
 }

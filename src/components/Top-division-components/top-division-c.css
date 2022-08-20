@@ -108,7 +108,7 @@ button:hover .overlay {
   }
 }
 
-/* main targer */
+
 
 @media (max-width: 570px) {
   .Myinfo p {
@@ -131,6 +131,12 @@ button:hover .overlay {
   .AboutMe {
     text-align: center;
   }
+  .join_disco {
+    width: 25rem;
+    /*background: linear-gradient(90deg, #8784E3 0%, #E0D9F1 100%);*/
+    background-color: #E0D9F1;
+  }
+
 }
 
 @media (max-width: 330px) {
