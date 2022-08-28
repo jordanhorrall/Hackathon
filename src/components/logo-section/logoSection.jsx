@@ -2,13 +2,13 @@ import React from 'react';
 import './logoSection.css';
 import sym from './sym.png';
 
-import pic from './computerGraphic.png';
+
 import hviolet from './hviolet.png';
 import tree from './treeLogo.PNG';
 
 import {MIDDLE_SECTION} from '../../Module/General';
 
-//middle section 
+//middle section
 function LogoSectionAbout() {
   return (
     <div className="LogoSectionAbout">

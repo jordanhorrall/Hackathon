@@ -38,6 +38,7 @@ import aditya from './Assets/teami/aditya.jpg';
 import kaylin from './Assets/teami/kaylin.jpg';
 import jan from './Assets/teami/jan.jpg';
 import generic from './Assets/teami/notAvailable.png';
+import gurleen from './Assets/teami/gurleen.jpg'
 
 /*
  *  Text and links on home page
@@ -52,6 +53,7 @@ const TOP_SECTION = {
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
   HACKERS_REGISTRATION_FORM_LINK: ''
+  
 };
 
 /*
@@ -64,7 +66,8 @@ const SOCIALS = {
   twitter: 'https://twitter.com/hackvioletvt',
   devpost: 'https://hackviolet.devpost.com/',
   email: 'mailto:hackvioletvt@gmail.com',
-  mail: 'hackvioletvt@gmail.com'
+  mail: 'hackvioletvt@gmail.com',
+  
 };
 
 /*
@@ -351,7 +354,7 @@ const TeamInfo = [
       role: 'Gurleen Singh - Company Relations',
       github: '',
       linkedin: 'https://www.linkedin.com/in/gurleen-singh-in/',
-      img: generic
+      img: gurleen
     }
   ],
   [
