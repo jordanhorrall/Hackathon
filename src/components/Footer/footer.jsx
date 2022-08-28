@@ -12,7 +12,6 @@ import {Btn} from '../Top-division-components/Top-division-components.jsx';
 import cross from './cross.svg';
 import {SOCIALS, TOP_SECTION, FOOTER} from '../../Module/General';
 
-
 // function GithubTemplate({hideTemplate}) {
 //   return (
 //     <div className="template">

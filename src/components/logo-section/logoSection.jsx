@@ -2,7 +2,6 @@ import React from 'react';
 import './logoSection.css';
 import sym from './sym.png';
 
-
 import hviolet from './hviolet.png';
 import tree from './treeLogo.PNG';
 
