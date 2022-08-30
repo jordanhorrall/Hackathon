@@ -37,7 +37,7 @@ import vivien from './Assets/teami/vivien.jpg';
 import aditya from './Assets/teami/aditya.jpg';
 import kaylin from './Assets/teami/kaylin.jpg';
 import jan from './Assets/teami/jan.jpg';
-import generic from './Assets/teami/notAvailable.png';
+i//mport generic from './Assets/teami/notAvailable.png';
 import gurleen from './Assets/teami/gurleen.jpg';
 
 /*
