@@ -132,10 +132,12 @@ button:hover .overlay {
     text-align: center;
   }
   .join_disco {
-    width: 25rem;
+    width: 27rem;
     /*background: linear-gradient(90deg, #8784E3 0%, #E0D9F1 100%);*/
     background-color: #E0D9F1;
   }
+
+  
 
 }
 
