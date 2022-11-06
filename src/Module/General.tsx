@@ -53,7 +53,7 @@ const TOP_SECTION = {
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://docs.google.com/forms/d/e/1FAIpQLSegUD7fvOZF_mrnRwx3NjtitBGmOr8pQ3kXvsnvlOhFfEhPSQ/viewform'
+    'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform'
 };
 
 /*
