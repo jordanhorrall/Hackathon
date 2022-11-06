@@ -52,7 +52,8 @@ const TOP_SECTION = {
     'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg',
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://docs.google.com/forms/d/e/1FAIpQLSegUD7fvOZF_mrnRwx3NjtitBGmOr8pQ3kXvsnvlOhFfEhPSQ/viewform'
+  HACKERS_REGISTRATION_FORM_LINK:
+    'https://docs.google.com/forms/d/e/1FAIpQLSegUD7fvOZF_mrnRwx3NjtitBGmOr8pQ3kXvsnvlOhFfEhPSQ/viewform'
 };
 
 /*
