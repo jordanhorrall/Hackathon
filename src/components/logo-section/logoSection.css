@@ -29,6 +29,24 @@
 }
 
 /*
+* computer and tree
+*/
+.group {
+  width: 450px;
+  height: 450px;
+  
+  margin-top: 0;
+  padding: 0;
+  
+  position: relative;
+  
+  right: 60px;
+  
+  top: 50px;
+
+}
+
+/*
 * tree is logo
 */
 .Logo {

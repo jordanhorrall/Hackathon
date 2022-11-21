@@ -21,24 +21,24 @@ import ventera from './Assets/sponsorsLogos/ventera.png';
  */
 // Importing all Team members images  from Assets
 
-import jordan from './Assets/teami/jordan.jpeg';
-import morgan from './Assets/teami/morgan.jpg';
-import annemarie from './Assets/teami/annemarie.jpg';
-import kavya from './Assets/teami/kavya.jpg';
-import annie from './Assets/teami/annie.jpg';
-import terjani from './Assets/teami/terjani.jpg';
+import jordan from './Assets/teami/jordanNew.jpg';
+import morgan from './Assets/teami/morganNew.jpg';
+import annemarie from './Assets/teami/annemarieNew.jpg';
+import kavya from './Assets/teami/kavyaNew.jpg';
+import annie from './Assets/teami/annieNew.jpg';
+import terjani from './Assets/teami/terjaniNew.jpg';
 import karen from './Assets/teami/karen.jpg';
-import rathi from './Assets/teami/bharathi.jpg';
-import haritha from './Assets/teami/haritha.jpg';
+import rathi from './Assets/teami/rathiNew.jpg';
+import haritha from './Assets/teami/harithaNew.jpg';
 import tanya from './Assets/teami/tanya.jpg';
-import jenna from './Assets/teami/jenna.jpg';
-import diya from './Assets/teami/diya.jpg';
-import vivien from './Assets/teami/vivien.jpg';
-import aditya from './Assets/teami/aditya.jpg';
-import kaylin from './Assets/teami/kaylin.jpg';
+import jenna from './Assets/teami/jennaNew.jpg';
+import diya from './Assets/teami/diyaNew.jpg';
+import vivien from './Assets/teami/vivienNew.jpg';
+import aditya from './Assets/teami/adityaNew.jpg';
+import kaylin from './Assets/teami/kaylinNew.jpg';
 import jan from './Assets/teami/jan.jpg';
 //import generic from './Assets/teami/notAvailable.png';
-import gurleen from './Assets/teami/gurleen.jpg';
+import gurleen from './Assets/teami/gurleenNew.jpg';
 
 /*
  *  Text and links on home page
@@ -51,9 +51,10 @@ const TOP_SECTION = {
   IMG_SRC:
     'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg',
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK: '',
+  JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform'
+    'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform',
+    MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8'
 };
 
 /*

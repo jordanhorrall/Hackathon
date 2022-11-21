@@ -4,6 +4,7 @@ import sym from './sym.png';
 
 import hviolet from './computer.png';
 import tree from './treeLogo.PNG';
+import group from './groupImage.jpg';
 
 import {MIDDLE_SECTION} from '../../Module/General';
 
@@ -59,4 +60,25 @@ function Logopic() {
   return picLogo;
 }
 
-export {Logo, LogoSectionAbout, Logopic};
+/*
+ *  logo on top of front page LogoS computer
+ */
+function groupPic() {
+  var group;
+  if (MIDDLE_SECTION.LOGO_EFFECT) {
+    group = (
+      <div className="group">
+        <img className="groupPic" src={group} alt="HackViolet" />
+      </div>
+    );
+  } else {
+    group = (
+      <div className="logoS">
+        <img className="Logo sym" src={sym} alt="HackViolet" />
+      </div>
+    );
+  }
+  return picLogo;
+}
+
+export {Logo, LogoSectionAbout, Logopic, groupPic};
