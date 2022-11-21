@@ -54,7 +54,7 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
   HACKERS_REGISTRATION_FORM_LINK:
     'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform',
-    MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8'
+  MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8'
 };
 
 /*

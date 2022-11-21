@@ -30,7 +30,7 @@ function Myinfo() {
       <About />
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
       <div className="join_dis">
-      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
           <Btn
             class="register"
@@ -40,9 +40,6 @@ function Myinfo() {
         </a>
       </div>
       <div className="buttom-group">
-
-      
-
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
           <Btn
