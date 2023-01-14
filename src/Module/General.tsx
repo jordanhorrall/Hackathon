@@ -7,12 +7,12 @@
 import peraton from './Assets/sponsorsLogos/Peraton.png';
 import leidos from './Assets/sponsorsLogos/leidos.png';
 import rsm from './Assets/sponsorsLogos/rsmt.png';
-import protiviti from './Assets/sponsorsLogos/protivitit.png';
-import cvent from './Assets/sponsorsLogos/cvent.png';
+import cipher from './Assets/sponsorsLogos/cipher.png';
+import geico from './Assets/sponsorsLogos/geico.png';
 import captech from './Assets/sponsorsLogos/captech.png';
 import bloomberg from './Assets/sponsorsLogos/bloomberg.png';
 import carmax from './Assets/sponsorsLogos/carmax.png';
-import willowtree from './Assets/sponsorsLogos/willowtree.png';
+import cci from './Assets/sponsorsLogos/CCI.png';
 import ventera from './Assets/sponsorsLogos/ventera.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
@@ -176,18 +176,24 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: 'Best Overall (2)',
+      prize1: '1st place: iPad 10.2 Inch',
+      prize2: '2nd place: Nintendo Switch Lite',
       content:
         'These prizes are awarded to the two teams whose projects excelled in all areas of judging.'
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: 'Best First Time (2) ',
+      prize1: '1st place: BenQ 27 in. Monitor',
+      prize2: '2nd place: Sonos Roam Smart Speaker',
       content:
         'These prizes are awarded to the two teams composed entirely of first time hackers whose projects excelled in all areas of judging.'
     },
     {
       icon: <i className=" third fas fa-4x fa-venus"></i>,
       type: 'Best Hack to Support Women (2)',
+      prize1: '1st place: Microsoft Surface Go 3',
+      prize2: '2nd place: Bose QuietComfort 45',
       content:
         'These are prizes awarded to the two teams whose projects creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
     }
@@ -195,37 +201,35 @@ const Prizeinfo = [
   [
     //Array 2
     {
-      icon: <i className=" fourth fas fa-4x fa-glasses"></i>,
-      type: ' Biggest Visionary',
-      content:
-        'This prize is awarded to the team whose project demonstrated a powerful, creative vision regardless of whether they were able to fully execute the idea.'
-    },
-    {
-      icon: <i className="eighth fas fa-4x fa-hand-holding-heart"></i>,
+      icon: <i className=" fourth fas fa-4x fa-hand-holding-heart"></i>,
       type: 'Ut Prosim (That May I Serve) Hack',
+      prize1: 'Prize: Amazon Gift Card',
       content:
         'This prize is awarded to the team whose project exemplifies Virginia Tech’s school motto of Ut Prosim (That I May Serve) by supporting VT students, professors, and/or the VT community.'
     },
     {
-      icon: <i className=" fifth fa-4x fas fa-briefcase-medical"></i>,
-      type: 'Best Health Hack',
+      icon: <i className="eighth fas fa-4x fa-glasses"></i>,
+      type: 'Biggest Visionary',
+      prize1: 'Prize: Tile Combo 4 Pack',
       content:
-        'This prize is awarded to the team whose project excelled in improving mental and/or physical health.'
+        'This prize is awarded to the team whose project demonstrated a powerful, creative vision regardless of whether they were able to fully execute the idea.'
+    },
+    {
+      icon: <i className=" fifth fa-4x fas fa-palette"></i>,
+      type: 'Best UI/UX',
+      prize1: 'Prize: Mechanical Keyboard and Wireless Mouse',
+      content:
+        'This prize is awarded to the team whose project had the most intuitive, user-friendly, and aesthetic UX/UI design.'
     }
   ],
   [
     //Array 3
     {
-      icon: <i className="fas fa-4x sixth fa-graduation-cap"></i>,
-      type: 'Best High School Hack',
+      icon: <i className="fas fa-4x sixth fa-seedling"></i>,
+      type: 'Most Eco-Friendly',
+      prize1: 'Prize: Airpods Pro 2',
       content:
-        'This prize is awarded to a team of all high school hackers whose project excelled in all areas of judging.'
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'Best Low Code Hack',
-      content:
-        'This prize is awarded to a team whose project utilized low-code tools and platforms such as Figma, Power BI, Tableau, Appian, and Mockplus to make their vision come to life. '
+        'This prize is  awarded to the team whose project excelled at addressing and relieving relevant environmental issues taking place in the world.'
     }
   ]
 ];
@@ -413,12 +417,20 @@ const TeamInfo = [
  * in a group of 3.
  */
 
-const sponsorLogos = [
-  [{src: peraton}, {src: leidos}, {src: rsm}], //Array 1
-  [{src: protiviti}, {src: cvent}, {src: captech}], //Array 2
-  [{src: bloomberg}, {src: carmax}, {src: willowtree}], //Array 3
-  [{src: ventera}] //Array 4
+// const violet = [
+//   [{src: peraton}, {src: leidos}, {src: rsm}], //Array 1 - violet
+//   [{src: cci}], //Array 2 - gold
+//   [{src: captech}, {src: cipher}, {src: geico}], //Array 3 - silver
+//   [{src: bloomberg}] //Array 4 - bronze
+// ];
+
+const violet = [
+  [{src: peraton}, {src: leidos}, {src: rsm}], //Array 1 - violet
+  [{src: cci}, {src: captech}, {src: cipher}], //Array 2 - gold
+  [{src: geico}, {src: bloomberg}], //Array 3 - silver
+
 ];
+
 
 /** Instructions
  * Follow the structure provided below to add as many as FAQ's you want
@@ -478,7 +490,7 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
-  sponsorLogos,
+  violet,
   TeamInfo,
   // JudgesInfo,
   frequentlyAskedQuestions,

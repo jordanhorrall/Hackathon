@@ -5,7 +5,7 @@ import {SOCIALS} from '../../Module/General';
 import sponsorship from './packet.pdf';
 
 function SponsorsHead() {
-  return <h1 className="shead">2022 Sponsors & Partners</h1>;
+  return <h1 className="shead">2023 Sponsors & Partners</h1>;
 }
 
 function Sponsor(props) {

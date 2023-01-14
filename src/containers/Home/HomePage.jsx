@@ -29,7 +29,7 @@ import {
   frequentlyAskedQuestions,
   JudgesInfo,
   Prizeinfo,
-  sponsorLogos,
+  violet,
   TeamInfo,
   TOP_SECTION
 } from '../../Module/General';
@@ -37,9 +37,24 @@ import {
 import './about.css';
 import lightPlain from './lightPlain.png';
 
-function SponsorGroup(props) {
+function SponsorViolet(props) {
   return (
     <Row>
+  
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={6}>
+          {' '}
+          <Sponsor srcx={s.src} />{' '}
+        </Col>
+      ))}
+    </Row>
+  );
+}
+
+function SponsorGold(props) {
+  return (
+    <Row>
+      <h3>Gold</h3>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
           {' '}
@@ -59,7 +74,7 @@ function PrizeGroup(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+          <FirstPrize icon={s.icon} type={s.type} prize1 = {s.prize1} prize2 = {s.prize2} content={s.content} />
         </Col>
       ))}
     </Row>
@@ -135,7 +150,7 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="2022 Prizes" />
+          <PrizeHeading type="2023 Prizes" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
@@ -150,7 +165,7 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+          {violet.map(SponsorViolet)}
         </Row>
         {/* ********Sponsors ending here ***** */}
 

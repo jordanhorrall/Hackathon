@@ -14,6 +14,8 @@ function FirstPrize(props) {
     <div className="Prizes">
       {props.icon}
       <h2>{props.type}</h2>
+      <p>{props.prize1}</p>
+      <p>{props.prize2}</p>
       <p>{props.content}</p>
     </div>
   );
