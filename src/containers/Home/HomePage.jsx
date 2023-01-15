@@ -40,7 +40,6 @@ import lightPlain from './lightPlain.png';
 function SponsorViolet(props) {
   return (
     <Row>
-  
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
           {' '}
@@ -74,7 +73,13 @@ function PrizeGroup(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} prize1 = {s.prize1} prize2 = {s.prize2} content={s.content} />
+          <FirstPrize
+            icon={s.icon}
+            type={s.type}
+            prize1={s.prize1}
+            prize2={s.prize2}
+            content={s.content}
+          />
         </Col>
       ))}
     </Row>

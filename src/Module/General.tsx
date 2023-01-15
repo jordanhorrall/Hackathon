@@ -176,7 +176,7 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: 'Best Overall (2)',
-      prize1: '1st place: iPad 10.2 Inch',
+      prize1: '1st place: iPad 10.2 Inch & Apple Pencil',
       prize2: '2nd place: Nintendo Switch Lite',
       content:
         'These prizes are awarded to the two teams whose projects excelled in all areas of judging.'
@@ -427,10 +427,8 @@ const TeamInfo = [
 const violet = [
   [{src: peraton}, {src: leidos}, {src: rsm}], //Array 1 - violet
   [{src: cci}, {src: captech}, {src: cipher}], //Array 2 - gold
-  [{src: geico}, {src: bloomberg}], //Array 3 - silver
-
+  [{src: geico}, {src: bloomberg}] //Array 3 - silver
 ];
-
 
 /** Instructions
  * Follow the structure provided below to add as many as FAQ's you want
