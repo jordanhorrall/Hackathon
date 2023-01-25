@@ -202,7 +202,7 @@ const Prizeinfo = [
     //Array 2
     {
       icon: <i className=" fourth fas fa-4x fa-hand-holding-heart"></i>,
-      type: 'Ut Prosim (That May I Serve) Hack',
+      type: 'Ut Prosim (That I May Serve) Hack',
       prize1: 'Prize: Amazon Gift Card',
       content:
         'This prize is awarded to the team whose project exemplifies Virginia Tech’s school motto of Ut Prosim (That I May Serve) by supporting VT students, professors, and/or the VT community.'
@@ -230,6 +230,13 @@ const Prizeinfo = [
       prize1: 'Prize: Airpods Pro 2',
       content:
         'This prize is  awarded to the team whose project excelled at addressing and relieving relevant environmental issues taking place in the world.'
+    },
+    {
+      icon: <i className="fas fa-4x sixth fa-window"></i>,
+      type: 'Best Web Hack Using Flask Spnsored by Peraton',
+      prize1: 'Prize: TBD',
+      content:
+        'This prize is  awarded to the team whose project made the best use of Flask, the Python web framework.'
     }
   ]
 ];
