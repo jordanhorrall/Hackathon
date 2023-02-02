@@ -229,16 +229,42 @@ const Prizeinfo = [
       type: 'Most Eco-Friendly',
       prize1: 'Prize: Airpods Pro 2',
       content:
-        'This prize is  awarded to the team whose project excelled at addressing and relieving relevant environmental issues taking place in the world.'
+        'This prize is awarded to the team whose project excelled at addressing and relieving relevant environmental issues taking place in the world.'
     },
     {
-      icon: <i className="fas fa-4x sixth fa-window"></i>,
+      icon: <i className="fas fa-4x first fa-file"></i>,
       type: 'Best Web Hack Using Flask Spnsored by Peraton',
-      prize1: 'Prize: TBD',
+      prize1: 'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
       content:
         'This prize is  awarded to the team whose project made the best use of Flask, the Python web framework.'
+    },
+    {
+      icon: <i className="fas fa-4x seventh fa-qrcode"></i>,
+      type: 'Most Innovative Sponsored by Bloomberg',
+      prize1: 'Prize: Nintendo Switch',
+      content:
+        "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
+    }
+
+  ], 
+  [
+    //Array 4
+    {
+      icon: <i className="fas fa-4x sixth fa-barcode"></i>,
+      type: 'Best Design Sponsored by RSM',
+      prize1: 'Prize: Wifi Pineapple by Hak5',
+      content:
+        'This prize is awarded to the team who RSM judges as having the best project design.'
+    },
+    {
+      icon: <i className="fas fa-4x fifth fa-bug"></i>,
+      type: 'Best DIB Hack',
+      prize1: 'Prize: CapTech Swag Bags',
+      content:
+        'This prize is awarded to the team who creates the best hack to promote diversity, inclusion and belonging.'
     }
   ]
+
 ];
 
 /** Instructions
