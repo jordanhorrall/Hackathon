@@ -40,7 +40,7 @@ function Myinfo() {
         </a>
       </div>
       <div className="buttom-group">
-        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+        <a href={TOP_SECTION.DEVPOST}>
           {' '}
           <Btn
             class="sponsor_btn"
@@ -49,14 +49,14 @@ function Myinfo() {
           />
         </a>
 
-        {/* <a href={TOP_SECTION.MENTORSHIP_LINK}>
+        <a href={TOP_SECTION.RUN_OF_SHOW}>
           {' '}
           <Btn
             class="register"
             type="Event Schedule"
             overlay="Click here🤝🏼"
           />
-        </a> */}
+        </a>
       </div>
     </div>
   );

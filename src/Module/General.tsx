@@ -55,7 +55,8 @@ const TOP_SECTION = {
   HACKERS_REGISTRATION_FORM_LINK:
     'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform',
   MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8',
-  RUN_OF_SHOW:''
+  RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
+  DEVPOST: 'http://hackviolet2023.devpost.com/'
 };
 
 /*
@@ -66,7 +67,7 @@ const SOCIALS = {
   discord: 'https://discord.gg/3h9pQuthfK',
   linkedin: 'https://www.linkedin.com/company/hackviolet-vt/',
   twitter: 'https://twitter.com/hackvioletvt',
-  devpost: 'https://hackviolet2023.devpost.com/',
+  devpost: 'http://hackviolet2023.devpost.com/',
   email: 'mailto:hackvioletvt@gmail.com',
   mail: 'hackvioletvt@gmail.com'
 };
@@ -255,7 +256,7 @@ const Prizeinfo = [
       type: 'Best Design Sponsored by RSM',
       prize1: 'Prize: Wifi Pineapple by Hak5',
       content:
-        'This prize is awarded to the team who RSM judges as having the best project design.'
+        'This prize is awarded to the team that shows the most interesting implementation of a database, either through its unique design of its usefulness in the application. This prize is open to all coding languages!'
     },
     {
       icon: <i className="fas fa-4x fifth fa-robot"></i>,
