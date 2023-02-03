@@ -50,11 +50,12 @@ const TOP_SECTION = {
     'Join us on February 4-5th, 2023 at the Virginia Tech campus for a weekend of innovation and fun!',
   IMG_SRC:
     'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg',
-  DISCORD_LINK: '',
+  DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
   JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
   HACKERS_REGISTRATION_FORM_LINK:
     'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform',
-  MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8'
+  MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8',
+  RUN_OF_SHOW:''
 };
 
 /*
@@ -62,10 +63,10 @@ const TOP_SECTION = {
  */
 const SOCIALS = {
   instagram: 'https://www.instagram.com/hackvioletvt/',
-  discord: '',
+  discord: 'https://discord.gg/3h9pQuthfK',
   linkedin: 'https://www.linkedin.com/company/hackviolet-vt/',
   twitter: 'https://twitter.com/hackvioletvt',
-  devpost: 'https://hackviolet.devpost.com/',
+  devpost: 'https://hackviolet2023.devpost.com/',
   email: 'mailto:hackvioletvt@gmail.com',
   mail: 'hackvioletvt@gmail.com'
 };
@@ -232,39 +233,38 @@ const Prizeinfo = [
         'This prize is awarded to the team whose project excelled at addressing and relieving relevant environmental issues taking place in the world.'
     },
     {
-      icon: <i className="fas fa-4x first fa-file"></i>,
-      type: 'Best Web Hack Using Flask Spnsored by Peraton',
-      prize1: 'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
+      icon: <i className="fas fa-4x first fa-keyboard"></i>,
+      type: 'Best Web Hack Using Flask Sponsored by Peraton',
+      prize1:
+        'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
       content:
-        'This prize is  awarded to the team whose project made the best use of Flask, the Python web framework.'
+        'This prize is awarded to the team whose project made the best use of Flask, the Python web framework.'
     },
     {
-      icon: <i className="fas fa-4x seventh fa-qrcode"></i>,
+      icon: <i className="fas fa-4x seventh fa-bug"></i>,
       type: 'Most Innovative Sponsored by Bloomberg',
       prize1: 'Prize: Nintendo Switch',
       content:
         "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
     }
-
-  ], 
+  ],
   [
     //Array 4
     {
-      icon: <i className="fas fa-4x sixth fa-barcode"></i>,
+      icon: <i className="fas fa-4x sixth fa-code"></i>,
       type: 'Best Design Sponsored by RSM',
       prize1: 'Prize: Wifi Pineapple by Hak5',
       content:
         'This prize is awarded to the team who RSM judges as having the best project design.'
     },
     {
-      icon: <i className="fas fa-4x fifth fa-bug"></i>,
-      type: 'Best DIB Hack',
+      icon: <i className="fas fa-4x fifth fa-robot"></i>,
+      type: 'Best Diversity, Inclusion, and Belonging Hack',
       prize1: 'Prize: CapTech Swag Bags',
       content:
         'This prize is awarded to the team who creates the best hack to promote diversity, inclusion and belonging.'
     }
   ]
-
 ];
 
 /** Instructions

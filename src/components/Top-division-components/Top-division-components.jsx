@@ -30,12 +30,12 @@ function Myinfo() {
       <About />
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
       <div className="join_dis">
-        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+        <a href={TOP_SECTION.DISCORD_LINK}>
           {' '}
           <Btn
             class="register"
-            type="Register"
-            overlay="Click here to register!💫"
+            type="Join Discord"
+            overlay="Click here to join💫"
           />
         </a>
       </div>
@@ -44,19 +44,19 @@ function Myinfo() {
           {' '}
           <Btn
             class="sponsor_btn"
-            type="Judge for Hackviolet!"
-            overlay="Interest form⚖️"
+            type="Register on Devpost"
+            overlay="Register here✨"
           />
         </a>
 
-        <a href={TOP_SECTION.MENTORSHIP_LINK}>
+        {/* <a href={TOP_SECTION.MENTORSHIP_LINK}>
           {' '}
           <Btn
             class="register"
-            type="Be a mentor!"
-            overlay="Interest form🤝🏼"
+            type="Event Schedule"
+            overlay="Click here🤝🏼"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );
