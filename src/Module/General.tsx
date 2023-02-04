@@ -264,16 +264,15 @@ const Prizeinfo = [
       prize1: 'Prize: CapTech Swag Bags',
       content:
         'This prize is awarded to the team who creates the best hack to promote diversity, inclusion and belonging.'
-    }, 
+    },
 
     {
       icon: <i className="fas fa-4x eighth fa-microscope"></i>,
       type: 'Best Digital Forensics Related Hack Sponsored by Cipher Tech',
       prize1: 'Prize: $100 in Amazon giftcards and Cipher Tech Swag bags',
       content:
-        'This prize is awarded to the tea, who designs the best application that pertains in some way to digital forensics.'
+        'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
     }
-
   ]
 ];
 
