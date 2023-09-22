@@ -22,32 +22,34 @@ import ventera from './Assets/sponsorsLogos/ventera.png';
 // Importing all Team members images  from Assets
 
 import jordan from './Assets/teami/jordanNew.jpg';
-import morgan from './Assets/teami/morganNew.jpg';
-import annemarie from './Assets/teami/annemarieNew.jpg';
-import kavya from './Assets/teami/kavyaNew.jpg';
+import erica from './Assets/teami/erica.jpg';
+import hamsini from './Assets/teami/hamsini.jpg';
+import kavya from './Assets/teami/kavya.jpg';
 import annie from './Assets/teami/annieNew.jpg';
-import terjani from './Assets/teami/terjaniNew.jpg';
-import karen from './Assets/teami/karen.jpg';
-import rathi from './Assets/teami/rathiNew.jpg';
+import hafsa from './Assets/teami/hafsa.jpg';
+import mia from './Assets/teami/mia.jpg';
+import tessa from './Assets/teami/tessa.jpg';
 import haritha from './Assets/teami/harithaNew.jpg';
-import tanya from './Assets/teami/tanya.jpg';
+import maryann from './Assets/teami/maryann.jpg';
 import jenna from './Assets/teami/jennaNew.jpg';
 import diya from './Assets/teami/diyaNew.jpg';
 import vivien from './Assets/teami/vivienNew.jpg';
 import aditya from './Assets/teami/adityaNew.jpg';
-import kaylin from './Assets/teami/kaylinNew.jpg';
-import jan from './Assets/teami/jan.jpg';
-//import generic from './Assets/teami/notAvailable.png';
-import gurleen from './Assets/teami/gurleenNew.jpg';
+import caroline from './Assets/teami/caroline.jpg';
+import jinju from './Assets/teami/jinju.jpg';
+import rakesh from './Assets/teami/rakesh.png';
+import travis from './Assets/teami/travis.jpg';
+import sherry from './Assets/teami/sherry.png';
+
 
 /*
  *  Text and links on home page
  */
 const TOP_SECTION = {
-  TITLE: 'HackViolet 2023',
+  TITLE: 'HackViolet 2024',
   //Typed_effect: 'Hack to Empower.',
   SHORT_DESCRIPTION:
-    'Join us on February 4-5th, 2023 at the Virginia Tech campus for a weekend of innovation and fun!',
+    'Join us in February 2024 at the Virginia Tech campus for a weekend of innovation and fun!',
   IMG_SRC:
     'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg',
   DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
@@ -178,24 +180,24 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: 'Best Overall (2)',
-      prize1: '1st place: iPad 10.2 Inch & Apple Pencil',
-      prize2: '2nd place: Nintendo Switch Lite',
+      // prize1: '1st place: iPad 10.2 Inch & Apple Pencil',
+      // prize2: '2nd place: Nintendo Switch Lite',
       content:
         'These prizes are awarded to the two teams whose projects excelled in all areas of judging.'
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: 'Best First Time (2) ',
-      prize1: '1st place: BenQ 27 in. Monitor',
-      prize2: '2nd place: Sonos Roam Smart Speaker',
+      // prize1: '1st place: BenQ 27 in. Monitor',
+      // prize2: '2nd place: Sonos Roam Smart Speaker',
       content:
         'These prizes are awarded to the two teams composed entirely of first time hackers whose projects excelled in all areas of judging.'
     },
     {
       icon: <i className=" third fas fa-4x fa-venus"></i>,
       type: 'Best Hack to Support Women (2)',
-      prize1: '1st place: Microsoft Surface Go 3',
-      prize2: '2nd place: Bose QuietComfort 45',
+      // prize1: '1st place: Microsoft Surface Go 3',
+      // prize2: '2nd place: Bose QuietComfort 45',
       content:
         'These are prizes awarded to the two teams whose projects creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
     }
@@ -204,22 +206,22 @@ const Prizeinfo = [
     //Array 2
     {
       icon: <i className=" fourth fas fa-4x fa-hand-holding-heart"></i>,
-      type: 'Ut Prosim (That I May Serve) Hack',
-      prize1: 'Prize: Amazon Gift Card',
+      type: 'Best Hokie Spirit',
+      // prize1: 'Prize: Amazon Gift Card',
       content:
-        'This prize is awarded to the team whose project exemplifies Virginia Tech’s school motto of Ut Prosim (That I May Serve) by supporting VT students, professors, and/or the VT community.'
+        'This prize is awarded to the team whose project demonstrates what it means to be a Hokie and/or demonstrates Ut Prosim and Hokie Spirit.'
     },
     {
       icon: <i className="eighth fas fa-4x fa-glasses"></i>,
-      type: 'Biggest Visionary',
-      prize1: 'Prize: Tile Combo 4 Pack',
+      type: 'Best Accessibility',
+      //prize1: 'Prize: Tile Combo 4 Pack',
       content:
-        'This prize is awarded to the team whose project demonstrated a powerful, creative vision regardless of whether they were able to fully execute the idea.'
+        'This prize is awarded to the team whose project promotes making technology more accessible and inclusive for people with disabilities.'
     },
     {
       icon: <i className=" fifth fa-4x fas fa-palette"></i>,
       type: 'Best UI/UX',
-      prize1: 'Prize: Mechanical Keyboard and Wireless Mouse',
+      //prize1: 'Prize: Mechanical Keyboard and Wireless Mouse',
       content:
         'This prize is awarded to the team whose project had the most intuitive, user-friendly, and aesthetic UX/UI design.'
     }
@@ -228,52 +230,52 @@ const Prizeinfo = [
     //Array 3
     {
       icon: <i className="fas fa-4x sixth fa-seedling"></i>,
-      type: 'Most Eco-Friendly',
-      prize1: 'Prize: Airpods Pro 2',
+      type: 'Best Data-Driven Hack',
+      //prize1: 'Prize: Airpods Pro 2',
       content:
-        'This prize is awarded to the team whose project excelled at addressing and relieving relevant environmental issues taking place in the world.'
-    },
-    {
-      icon: <i className="fas fa-4x first fa-keyboard"></i>,
-      type: 'Best Web Hack Using Flask Sponsored by Peraton',
-      prize1:
-        'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
-      content:
-        'This prize is awarded to the team whose project made the best use of Flask, the Python web framework.'
-    },
-    {
-      icon: <i className="fas fa-4x seventh fa-bug"></i>,
-      type: 'Most Innovative Sponsored by Bloomberg',
-      prize1: 'Prize: Nintendo Switch',
-      content:
-        "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
+        'This prize is awarded the team whose project utilizes dataset(s) to provide valuable insights using AI/ML/data analytics concepts and/or data visualization techniques/software.'
     }
-  ],
-  [
-    //Array 4
-    {
-      icon: <i className="fas fa-4x sixth fa-code"></i>,
-      type: 'Best Design Sponsored by RSM',
-      prize1: 'Prize: Wifi Pineapple by Hak5',
-      content:
-        'This prize is awarded to the team that shows the most interesting implementation of a database, either through its unique design of its usefulness in the application. This prize is open to all coding languages!'
-    },
-    {
-      icon: <i className="fas fa-4x fifth fa-robot"></i>,
-      type: 'Best Diversity, Inclusion, and Belonging Hack Sponsored by CapTech',
-      prize1: 'Prize: CapTech Swag Bags',
-      content:
-        'This prize is awarded to the team who creates the best hack to promote diversity, inclusion and belonging.'
-    },
-
-    {
-      icon: <i className="fas fa-4x eighth fa-microscope"></i>,
-      type: 'Best Digital Forensics Related Hack Sponsored by Cipher Tech',
-      prize1: 'Prize: $100 in Amazon giftcards and Cipher Tech Swag bags',
-      content:
-        'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
-    }
+    // {
+    //   icon: <i className="fas fa-4x first fa-keyboard"></i>,
+    //   type: 'Best Web Hack Using Flask Sponsored by Peraton',
+    //   prize1:
+    //     'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
+    //   content:
+    //     'This prize is awarded to the team whose project made the best use of Flask, the Python web framework.'
+    // },
+    // {
+    //   icon: <i className="fas fa-4x seventh fa-bug"></i>,
+    //   type: 'Most Innovative Sponsored by Bloomberg',
+    //   prize1: 'Prize: Nintendo Switch',
+    //   content:
+    //     "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
+    // }
   ]
+  // [
+  //   //Array 4
+  //   {
+  //     icon: <i className="fas fa-4x sixth fa-code"></i>,
+  //     type: 'Best Design Sponsored by RSM',
+  //     prize1: 'Prize: Wifi Pineapple by Hak5',
+  //     content:
+  //       'This prize is awarded to the team that shows the most interesting implementation of a database, either through its unique design of its usefulness in the application. This prize is open to all coding languages!'
+  //   },
+  //   {
+  //     icon: <i className="fas fa-4x fifth fa-robot"></i>,
+  //     type: 'Best Diversity, Inclusion, and Belonging Hack Sponsored by CapTech',
+  //     prize1: 'Prize: CapTech Swag Bags',
+  //     content:
+  //       'This prize is awarded to the team who creates the best hack to promote diversity, inclusion and belonging.'
+  //   },
+
+  //   {
+  //     icon: <i className="fas fa-4x eighth fa-microscope"></i>,
+  //     type: 'Best Digital Forensics Related Hack Sponsored by Cipher Tech',
+  //     prize1: 'Prize: $100 in Amazon giftcards and Cipher Tech Swag bags',
+  //     content:
+  //       'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
+  //   }
+  // ]
 ];
 
 /** Instructions
@@ -286,97 +288,97 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Kaylin Pham',
-      role: 'Kaylin Pham - Co-Executive Director',
+      Name: 'Vivien Pang',
+      role: 'Vivien Pang - Co-Executive Director',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/kaylinpham/',
-      img: kaylin
+      linkedin: 'https://www.linkedin.com/in/vivien-p-bb63a3186/',
+      img: vivien
     },
     {
-      Name: 'Morgan Pham',
-      role: 'Morgan Pham - Co-Executive Director',
+      Name: 'Haritha Chode',
+      role: 'Haritha Chode - Co-Executive Director',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/morgan-pham/',
-      img: morgan
+      linkedin: 'https://www.linkedin.com/in/harithachode/',
+      img: haritha
     },
     {
-      Name: 'Kavya Sundaram',
-      role: 'Kavya Sundaram - External Operations Director',
+      Name: 'Annie Tran',
+      role: 'Annie Tran - External Operations Director',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/kavyasundaram/',
-      img: kavya
+      linkedin: 'https://www.linkedin.com/in/annieseinna/s',
+      img: annie
     }
   ],
   [
     //Array 2
     {
-      Name: 'Annie Tran',
-      role: 'Annie Tran - Judging',
+      Name: 'Caroline Joseph',
+      role: 'Caroline Joseph - Judging',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/annieseinna/s',
-      img: annie
+      linkedin: 'https://www.linkedin.com/in/caroline-joseph-0b17421b9',
+      img: caroline
     },
     {
-      Name: 'Rathi Ganesan',
-      role: 'Rathi Ganesan - Judging',
+      Name: 'Hafsa Khan',
+      role: 'Hafsa Khann - Judging',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/ganesan-bharathi/',
-      img: rathi
+      linkedin: 'https://www.linkedin.com/in/hafsakhann',
+      img: hafsa
     },
     {
-      Name: 'Jenna Krebs',
-      role: 'Jenna Krebs - Mentorship',
+      Name: 'Jinju Brown',
+      role: 'Jinju Brown - Mentorship',
       github: '',
-      linkedin: 'http://www.linkedin.com/in/jenna-krebs-a76352198',
-      img: jenna
+      linkedin: 'http://www.linkedin.com/in/jinju-brown',
+      img: jinju
     }
   ],
   [
     //Array 3
     {
-      Name: 'Jan Michalak',
-      role: 'Jan Michalak - Internal Operations Director',
+      Name: 'Kavya Somala',
+      role: 'Kavya Somala - Internal Operations Director',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/jan-michalak-a65159207s',
-      img: jan
+      linkedin: 'https://www.linkedin.com/in/kavyasomala/',
+      img: kavya
     },
     {
-      Name: 'Terjani Desai',
-      role: 'Terjani Desai - Events',
+      Name: 'Travis Chan',
+      role: 'Travis Chan - Events',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/terjanidesai/',
-      img: terjani
+      linkedin: 'https://www.linkedin.com/in/travis-c',
+      img: travis
     },
     {
-      Name: 'Vivien Pang',
-      role: 'Vivien Pang - Logistics',
+      Name: 'Tessa Ryan',
+      role: 'Tessa Ryan - Logistics',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/vivien-p-bb63a3186/',
-      img: vivien
+      linkedin: 'https://www.linkedin.com/in/tessa-ryan-6568a31a2',
+      img: tessa
     }
   ],
   [
     //Array 4
     {
-      Name: 'Tanya Acharya',
-      role: 'Tanya Acharya - Marketing Director',
+      Name: 'Maryann Nwude',
+      role: 'Maryann Nwude - Marketing Director',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/tanya-acharya/',
-      img: tanya
+      linkedin: 'https://www.linkedin.com/in/maryann-nwude/',
+      img: maryann
     },
     {
-      Name: 'Karen Tran',
-      role: 'Karen Tran - Graphic Design',
+      Name: 'Mia Nguyen',
+      role: 'Mia Nguyen - Graphic Design',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/karentran01/',
-      img: karen
+      linkedin: 'https://www.linkedin.com/in/mia-nguyen20/',
+      img: mia
     },
     {
-      Name: 'Annemarie Ching',
-      role: 'Annemarie Ching - Technology',
+      Name: 'Erica Chang',
+      role: 'Erica Chang - Technology',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/annemarie-ching/',
-      img: annemarie
+      linkedin: 'https://www.linkedin.com/in/erica-chang-2021/',
+      img: erica
     }
   ],
   [
@@ -389,35 +391,42 @@ const TeamInfo = [
       img: jordan
     },
     {
-      Name: 'Aditya Poudyal',
-      role: 'Aditya Poudyal - Sponsorship Director',
+      Name: 'Lauren Scheerer',
+      role: 'Lauren Scheerer - Webmaster',
       github: '',
       linkedin: 'https://www.linkedin.com/in/adityapoudyal',
       img: aditya
     },
     {
-      Name: 'Gurleen Singh',
-      role: 'Gurleen Singh - Company Relations',
+      Name: 'Diya Khilnani',
+      role: 'Diya Khilnani - Sponsorship Director',
       github: '',
       linkedin: 'https://www.linkedin.com/in/gurleen-singh-in/',
-      img: gurleen
+      img: diya
     }
   ],
   [
     //Array 6
     {
-      Name: 'Haritha Chode',
-      role: 'Haritha Chode - Company Relations',
+      Name: 'Hamsini Madanapalli',
+      role: 'Hamsini Madanapalli - Company Relations',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/harithachode/',
-      img: haritha
+      linkedin: 'https://www.linkedin.com/in/hamsini-madanapalli',
+      img: hamsini
     },
     {
-      Name: 'Diya Khilnani',
-      role: 'Diya Khilnani - Finance Chair',
+      Name: 'Rakesh Pillai',
+      role: 'Rakesh Pillai - Company Relations',
       github: '',
-      linkedin: '',
-      img: diya
+      linkedin: 'https://www.linkedin.com/in/rakesh-pillai123/',
+      img: rakesh
+    },
+    {
+      Name: 'Sharanya Dogiparthi',
+      role: 'Sharanya Dogiparthi - Finance',
+      github: '',
+      linkedin: 'https://www.linkedin.com/in/sharanyadogiparthi/',
+      img: sherry
     }
   ]
 ];
@@ -509,7 +518,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'What? Where? When?',
         content:
-          'HackViolet is a 24-hour female-empowerment hackathon and will take place on February 4-5th, 2023 at the Virginia Tech campus. HackViolet will be fully in-person this 2023 season!'
+          'HackViolet is a 24-hour female-empowerment hackathon and will take place in February 2024 at the Virginia Tech campus. HackViolet will be fully in-person this 2023 season!'
       },
       {
         label: 'Do I need a team?',
