@@ -35,7 +35,7 @@ function Myinfo() {
           <Btn
             class="register"
             type="Join Discord"
-            overlay="Click here to join💫"
+            overlay="Coming soon💫"
           />
         </a>
       </div>
@@ -45,7 +45,7 @@ function Myinfo() {
           <Btn
             class="sponsor_btn"
             type="Register on Devpost"
-            overlay="Register here✨"
+            overlay="Coming soon✨"
           />
         </a>
 
@@ -54,7 +54,7 @@ function Myinfo() {
           <Btn
             class="register"
             type="Event Schedule"
-            overlay="Click here🤝🏼"
+            overlay="Coming soon🤝🏼"
           />
         </a>
       </div>

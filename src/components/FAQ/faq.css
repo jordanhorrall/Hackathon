@@ -7,7 +7,7 @@
   position: relative;
 }
 .panel {
-  background-color: #c8ccf4;
+  background-color: #c79cfc;
   border-radius: 12px;
   margin-top: 10px;
 }
@@ -83,7 +83,7 @@
     
   }
   .panel {
-    background-color: #c8ccf4;
+    background-color: #c79cfc;
     border-radius: 12px;
     margin-top: 10px;
     height:fit-content;
@@ -119,8 +119,8 @@
   margin-bottom: 5rem;
   margin-top: 3rem;
   font-family: 'Nunito', sans-serif;
-    color: #e0d9f1;
- -webkit-text-stroke: 0.5px #44409E;
+    color: #f5c2ff;
+ -webkit-text-stroke: 0.5px #7145d9;
 
 }
 

@@ -40,7 +40,7 @@ import jinju from './Assets/teami/jinju.jpg';
 import rakesh from './Assets/teami/rakesh.png';
 import travis from './Assets/teami/travis.jpg';
 import sherry from './Assets/teami/sherry.png';
-
+import lauren from './Assets/teami/laure.jpg';
 
 /*
  *  Text and links on home page
@@ -52,13 +52,13 @@ const TOP_SECTION = {
     'Join us in February 2024 at the Virginia Tech campus for a weekend of innovation and fun!',
   IMG_SRC:
     'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg',
-  DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
-  JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform',
-  MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8',
-  RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
-  DEVPOST: 'http://hackviolet2023.devpost.com/'
+  // DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
+  // JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
+  // HACKERS_REGISTRATION_FORM_LINK:
+  //   'https://docs.google.com/forms/d/e/1FAIpQLScWcc1nDAo10KcwnaoRHpbTcrjSydJ7gENuS2vXtCw-2X5LJw/viewform',
+  // MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8',
+  // RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
+  // DEVPOST: 'http://hackviolet2023.devpost.com/'
 };
 
 /*
@@ -66,7 +66,7 @@ const TOP_SECTION = {
  */
 const SOCIALS = {
   instagram: 'https://www.instagram.com/hackvioletvt/',
-  discord: 'https://discord.gg/3h9pQuthfK',
+  //discord: 'https://discord.gg/3h9pQuthfK',
   linkedin: 'https://www.linkedin.com/company/hackviolet-vt/',
   twitter: 'https://twitter.com/hackvioletvt',
   devpost: 'http://hackviolet2023.devpost.com/',
@@ -394,8 +394,8 @@ const TeamInfo = [
       Name: 'Lauren Scheerer',
       role: 'Lauren Scheerer - Webmaster',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/adityapoudyal',
-      img: aditya
+      linkedin: 'https://www.linkedin.com/in/lscheerer/',
+      img: lauren
     },
     {
       Name: 'Diya Khilnani',
@@ -518,7 +518,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'What? Where? When?',
         content:
-          'HackViolet is a 24-hour female-empowerment hackathon and will take place in February 2024 at the Virginia Tech campus. HackViolet will be fully in-person this 2023 season!'
+          'HackViolet is a 24-hour female-empowerment hackathon and will take place in February 2024 at the Virginia Tech campus. HackViolet will be fully in-person this 2024 season!'
       },
       {
         label: 'Do I need a team?',
