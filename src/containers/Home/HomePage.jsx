@@ -46,6 +46,7 @@ function SponsorViolet(props) {
           <Sponsor srcx={s.src} />{' '}
         </Col>
       ))}
+      
     </Row>
   );
 }

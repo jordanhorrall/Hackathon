@@ -50,8 +50,8 @@ const TOP_SECTION = {
   //Typed_effect: 'Hack to Empower.',
   SHORT_DESCRIPTION:
     'Join us in February 2024 at the Virginia Tech campus for a weekend of innovation and fun!',
-  IMG_SRC:
-    'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg',
+  // IMG_SRC:
+  //   'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg'
   // DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
   // JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
   // HACKERS_REGISTRATION_FORM_LINK:
@@ -476,9 +476,9 @@ const TeamInfo = [
 // ];
 
 const violet = [
-  [{src: peraton}, {src: leidos}, {src: rsm}], //Array 1 - violet
-  [{src: cci}, {src: captech}, {src: cipher}], //Array 2 - gold
-  [{src: geico}, {src: bloomberg}] //Array 3 - silver
+  [] //Array 1 - violet
+  // [{src: cci}, {src: captech}, {src: cipher}], //Array 2 - gold
+  // [{src: geico}, {src: bloomberg}] //Array 3 - silver
 ];
 
 /** Instructions

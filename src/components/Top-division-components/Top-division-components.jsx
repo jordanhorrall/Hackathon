@@ -32,11 +32,7 @@ function Myinfo() {
       <div className="join_dis">
         <a href={TOP_SECTION.DISCORD_LINK}>
           {' '}
-          <Btn
-            class="register"
-            type="Join Discord"
-            overlay="Coming soon💫"
-          />
+          <Btn class="register" type="Join Discord" overlay="Coming soon💫" />
         </a>
       </div>
       <div className="buttom-group">
