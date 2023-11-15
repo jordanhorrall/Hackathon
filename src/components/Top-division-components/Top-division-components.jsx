@@ -29,14 +29,14 @@ function Myinfo() {
     <div className="Myinfo">
       <About />
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
-      <div className="join_dis">
-        <a href={TOP_SECTION.DISCORD_LINK}>
+      <div className="">
+        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
-          <Btn class="register" type="Join Discord" overlay="Coming soon💫" />
+          <Btn class="register" type="Register Now!" overlay="Registration here💫" />
         </a>
       </div>
       <div className="buttom-group">
-        <a href={TOP_SECTION.DEVPOST}>
+        {/* <a href={TOP_SECTION.DEVPOST}>
           {' '}
           <Btn
             class="sponsor_btn"
@@ -52,7 +52,7 @@ function Myinfo() {
             type="Event Schedule"
             overlay="Coming soon🤝🏼"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );
