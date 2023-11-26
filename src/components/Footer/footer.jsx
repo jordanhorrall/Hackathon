@@ -111,7 +111,7 @@ export default function Footer() {
               <p>MLH Code of Conduct</p>
             </a>
           )}
-          {FOOTER.Terms_of_use.required && <p>© Copyright 2022 HackViolet</p>}
+          {FOOTER.Terms_of_use.required && <p>© Copyright 2023 HackViolet</p>}
           {<p>Made with 💖</p> /*💗❤️💜 */}
         </div>
         {/* {template && viewTemplate && (

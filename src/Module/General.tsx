@@ -49,13 +49,12 @@ const TOP_SECTION = {
   TITLE: 'HackViolet 2024',
   //Typed_effect: 'Hack to Empower.',
   SHORT_DESCRIPTION:
-    'Join us in February 2024 at the Virginia Tech campus for a weekend of innovation and fun!',
+    'Join us February 3-4 2024 at the Virginia Tech campus for a weekend of innovation and fun!',
   // IMG_SRC:
   //   'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg'
   // DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
   // JUDGES_FORM_LINK: 'https://forms.gle/2jszY3Gz2DUJWQPz7',
-  HACKERS_REGISTRATION_FORM_LINK:
-     'https://tally.so/r/3xDlbJ'
+  HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ'
   // MENTORSHIP_LINK: 'https://forms.gle/sFktpDqYkWpR9zXR8',
   // RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
   // DEVPOST: 'http://hackviolet2023.devpost.com/'

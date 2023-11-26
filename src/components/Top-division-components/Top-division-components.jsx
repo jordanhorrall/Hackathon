@@ -32,7 +32,11 @@ function Myinfo() {
       <div className="">
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
-          <Btn class="register" type="Register Now!" overlay="Registration here💫" />
+          <Btn
+            class="register"
+            type="Register Now!"
+            overlay="Registration here💫"
+          />
         </a>
       </div>
       <div className="buttom-group">
