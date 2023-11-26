@@ -2,8 +2,8 @@ import React from 'react';
 import './logoSection.css';
 import sym from './sym.png';
 
-import hviolet from './computergraphic.png';
-import tree from './HackViolet-Logo-No-Background.png';
+import hviolet from './computer.png';
+import tree from './treeLogo.png';
 import group from './groupImage.jpg';
 
 import {MIDDLE_SECTION} from '../../Module/General';
