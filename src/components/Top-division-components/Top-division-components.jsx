@@ -40,23 +40,23 @@ function Myinfo() {
         </a>
       </div>
       <div className="buttom-group">
-        {/* <a href={TOP_SECTION.DEVPOST}>
+        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
           <Btn
             class="sponsor_btn"
-            type="Register on Devpost"
-            overlay="Coming soon✨"
+            type="Become a judge"
+            overlay="Apply here✨"
           />
         </a>
 
-        <a href={TOP_SECTION.RUN_OF_SHOW}>
+        <a href={TOP_SECTION.MENTORSHIP_LINK}>
           {' '}
           <Btn
             class="register"
-            type="Event Schedule"
-            overlay="Coming soon🤝🏼"
+            type="Become a mentor"
+            overlay="Apply here🤝🏼"
           />
-        </a> */}
+        </a>
       </div>
     </div>
   );

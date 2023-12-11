@@ -3,7 +3,7 @@ import './logoSection.css';
 import sym from './sym.png';
 
 import hviolet from './computer.png';
-import tree from './treeLogoold.PNG';
+import tree from './treeLogo.png';
 import group from './groupImage.jpg';
 
 import {MIDDLE_SECTION} from '../../Module/General';
