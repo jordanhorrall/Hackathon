@@ -11,6 +11,7 @@
 button {
   width: 22rem;
   height: 6rem;
+  margin: 10px;
   
   border: 2px solid #C79CFC;
   
@@ -18,7 +19,7 @@ button {
   font-size: 1.75rem;
   color:#C79CFC;
   background-color: #E0D9F1;
-  font-weight: 300;
+  font-weight: bold;
   position: relative;
 }
 
@@ -26,25 +27,30 @@ button {
   width: 25rem;
   /*background: linear-gradient(90deg, #8784E3 0%, #E0D9F1 100%);*/
   background-color: #E0D9F1;
+  font-weight: bold;
 }
 
 .join_disco i {
   margin-right: 10px;
+  font-weight: bold;
 }
 
 .join_dis {
   margin-bottom: 29px;
   margin-top: 19px;
+  font-weight: bold;
   
 }
 
 .buttom-group{
   width: 100%;
   overflow: auto;
+  font-weight: bold;
 }
 
 .register {
   margin-left: 1rem;
+  font-weight: bold;
   border: 2px solid #C79CFC;
   background-color: #E0D9F1;
 }
@@ -72,6 +78,7 @@ p {
 /* Over lay effect */
 
 .overlay {
+  
   position: absolute;
   bottom: 0;
   left: 100%;
@@ -85,7 +92,7 @@ p {
 }
 
 .overlay-text {
-  font-weight: 300;
+  font-weight: bold;
   color: #62779c;
   font-size: 17px;
   position: absolute;

@@ -180,62 +180,55 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'Best Overall (2)',
+      type: 'Best Overall (1st)',
       // prize1: '1st place: iPad 10.2 Inch & Apple Pencil',
       // prize2: '2nd place: Nintendo Switch Lite',
       content:
-        'These prizes are awarded to the two teams whose projects excelled in all areas of judging.'
+        'This prize is awarded to the team whose project excelled in all areas of judging.'
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'Best First Time (2) ',
+      type: 'Best Overall (2nd) ',
       // prize1: '1st place: BenQ 27 in. Monitor',
       // prize2: '2nd place: Sonos Roam Smart Speaker',
       content:
-        'These prizes are awarded to the two teams composed entirely of first time hackers whose projects excelled in all areas of judging.'
+        'This second place prize is awarded to the team whose project excelled in all areas of judging.'
     },
     {
       icon: <i className=" third fas fa-4x fa-venus"></i>,
-      type: 'Best Hack to Support Women (2)',
+      type: 'Best Hack to Support Women (1st)',
       // prize1: '1st place: Microsoft Surface Go 3',
       // prize2: '2nd place: Bose QuietComfort 45',
       content:
-        'These are prizes awarded to the two teams whose projects creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
+        'This first place prize is awarded to the team whose project creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
     }
   ],
   [
     //Array 2
     {
       icon: <i className=" fourth fas fa-4x fa-hand-holding-heart"></i>,
-      type: 'Best Hokie Spirit',
+      type: 'Best Hack to Support Women (2nd)',
       // prize1: 'Prize: Amazon Gift Card',
       content:
-        'This prize is awarded to the team whose project demonstrates what it means to be a Hokie and/or demonstrates Ut Prosim and Hokie Spirit.'
+        'This second place prize is awarded to the team whose project creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
     },
     {
-      icon: <i className="eighth fas fa-4x fa-glasses"></i>,
-      type: 'Best Accessibility',
+      icon: <i className="fas fa-4x first fa-keyboard"></i>,
+      type: 'Best First Time',
       //prize1: 'Prize: Tile Combo 4 Pack',
       content:
-        'This prize is awarded to the team whose project promotes making technology more accessible and inclusive for people with disabilities.'
-    },
-    {
-      icon: <i className=" fifth fa-4x fas fa-palette"></i>,
-      type: 'Best UI/UX',
-      //prize1: 'Prize: Mechanical Keyboard and Wireless Mouse',
-      content:
-        'This prize is awarded to the team whose project had the most intuitive, user-friendly, and aesthetic UX/UI design.'
+        'This prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
     }
   ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-seedling"></i>,
-      type: 'Best Data-Driven Hack',
-      //prize1: 'Prize: Airpods Pro 2',
-      content:
-        'This prize is awarded the team whose project utilizes dataset(s) to provide valuable insights using AI/ML/data analytics concepts and/or data visualization techniques/software.'
-    }
+  // [
+  //   //Array 3
+  //   {
+  //     icon: <i className="fas fa-4x sixth fa-seedling"></i>,
+  //     type: 'Best Data-Driven Hack',
+  //     //prize1: 'Prize: Airpods Pro 2',
+  //     content:
+  //       'This prize is awarded the team whose project utilizes dataset(s) to provide valuable insights using AI/ML/data analytics concepts and/or data visualization techniques/software.'
+  //   }
     // {
     //   icon: <i className="fas fa-4x first fa-keyboard"></i>,
     //   type: 'Best Web Hack Using Flask Sponsored by Peraton',
@@ -251,7 +244,7 @@ const Prizeinfo = [
     //   content:
     //     "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
     // }
-  ]
+  //]
   // [
   //   //Array 4
   //   {
