@@ -219,7 +219,7 @@ const Prizeinfo = [
       content:
         'This prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
     }
-  ],
+  ]
   // [
   //   //Array 3
   //   {
@@ -229,21 +229,21 @@ const Prizeinfo = [
   //     content:
   //       'This prize is awarded the team whose project utilizes dataset(s) to provide valuable insights using AI/ML/data analytics concepts and/or data visualization techniques/software.'
   //   }
-    // {
-    //   icon: <i className="fas fa-4x first fa-keyboard"></i>,
-    //   type: 'Best Web Hack Using Flask Sponsored by Peraton',
-    //   prize1:
-    //     'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
-    //   content:
-    //     'This prize is awarded to the team whose project made the best use of Flask, the Python web framework.'
-    // },
-    // {
-    //   icon: <i className="fas fa-4x seventh fa-bug"></i>,
-    //   type: 'Most Innovative Sponsored by Bloomberg',
-    //   prize1: 'Prize: Nintendo Switch',
-    //   content:
-    //     "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
-    // }
+  // {
+  //   icon: <i className="fas fa-4x first fa-keyboard"></i>,
+  //   type: 'Best Web Hack Using Flask Sponsored by Peraton',
+  //   prize1:
+  //     'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
+  //   content:
+  //     'This prize is awarded to the team whose project made the best use of Flask, the Python web framework.'
+  // },
+  // {
+  //   icon: <i className="fas fa-4x seventh fa-bug"></i>,
+  //   type: 'Most Innovative Sponsored by Bloomberg',
+  //   prize1: 'Prize: Nintendo Switch',
+  //   content:
+  //     "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
+  // }
   //]
   // [
   //   //Array 4
@@ -495,7 +495,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Who can attend HackViolet?',
         content:
-          'Any student enrolled in a high school, undergraduate, or graduate program. We are not a female (trans and cis)-only event. We invite students of all genders, majors, and backgrounds. There is absolutely no experience necessary!'
+          'Any student enrolled in an undergraduate or graduate program. We are not a female (trans and cis)-only event. We invite students of all genders, majors, and backgrounds. There is absolutely no experience necessary!'
       },
       {
         label: 'Female-Empowerment vs. Female-Only',
