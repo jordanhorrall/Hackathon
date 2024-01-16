@@ -10,10 +10,11 @@ import rsm from './Assets/sponsorsLogos/rsmt.png';
 import cipher from './Assets/sponsorsLogos/cipher.png';
 import geico from './Assets/sponsorsLogos/geico.png';
 import captech from './Assets/sponsorsLogos/captech.png';
-import bloomberg from './Assets/sponsorsLogos/bloomberg.png';
-import carmax from './Assets/sponsorsLogos/carmax.png';
+import ozmo from './Assets/sponsorsLogos/ozmo.png';
+import jbhunt from './Assets/sponsorsLogos/jbhunt.png';
 import cci from './Assets/sponsorsLogos/CCI.png';
-import ventera from './Assets/sponsorsLogos/ventera.png';
+import costar from './Assets/sponsorsLogos/costar.png';
+
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -25,22 +26,20 @@ import jordan from './Assets/teami/jordanNew.jpg';
 import erica from './Assets/teami/erica.jpg';
 import hamsini from './Assets/teami/hamsini.jpg';
 import kavya from './Assets/teami/kavya.jpg';
-import annie from './Assets/teami/annieNew.jpg';
+import annie from './Assets/teami/annie.jpg';
 import hafsa from './Assets/teami/hafsa.jpg';
 import mia from './Assets/teami/mia.jpg';
 import tessa from './Assets/teami/tessa.jpg';
-import haritha from './Assets/teami/harithaNew.jpg';
+import haritha from './Assets/teami/haritha.jpg';
 import maryann from './Assets/teami/maryann.jpg';
-import jenna from './Assets/teami/jennaNew.jpg';
 import diya from './Assets/teami/diyaNew.jpg';
-import vivien from './Assets/teami/vivienNew.jpg';
-import aditya from './Assets/teami/adityaNew.jpg';
+import vivien from './Assets/teami/vivien.jpg';
 import caroline from './Assets/teami/caroline.jpg';
 import jinju from './Assets/teami/jinju.jpg';
-import rakesh from './Assets/teami/rakesh.png';
+import rakesh from './Assets/teami/rakesh.jpg';
 import travis from './Assets/teami/travis.jpg';
-import sherry from './Assets/teami/sherry.png';
-import lauren from './Assets/teami/laure.jpg';
+import sherry from './Assets/teami/notAvailable.png';
+
 
 /*
  *  Text and links on home page
@@ -385,29 +384,22 @@ const TeamInfo = [
       img: jordan
     },
     {
-      Name: 'Lauren Scheerer',
-      role: 'Lauren Scheerer - Webmaster',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/lscheerer/',
-      img: lauren
-    },
-    {
       Name: 'Diya Khilnani',
       role: 'Diya Khilnani - Sponsorship Director',
       github: '',
       linkedin: 'https://www.linkedin.com/in/gurleen-singh-in/',
       img: diya
-    }
-  ],
-  [
-    //Array 6
+    },
     {
       Name: 'Hamsini Madanapalli',
       role: 'Hamsini Madanapalli - Company Relations',
       github: '',
       linkedin: 'https://www.linkedin.com/in/hamsini-madanapalli',
       img: hamsini
-    },
+    }
+  ],
+  [
+    //Array 6
     {
       Name: 'Rakesh Pillai',
       role: 'Rakesh Pillai - Company Relations',
@@ -470,9 +462,11 @@ const TeamInfo = [
 // ];
 
 const violet = [
-  [] //Array 1 - violet
-  // [{src: cci}, {src: captech}, {src: cipher}], //Array 2 - gold
-  // [{src: geico}, {src: bloomberg}] //Array 3 - silver
+  // [{src: peraton}], //Array 1 - violet
+  // [{src: geico}, {src: captech}, {src: cipher}], //Array 2 - silver
+  // [{src: cci}, {src: bloomberg}] //Array 3 - bronze
+  [{src: peraton}, {src: geico}, {src: costar}],
+  [{src: jbhunt}, {src: cci}, {src: ozmo}]
 ];
 
 /** Instructions
