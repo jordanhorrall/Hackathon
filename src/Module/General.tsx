@@ -35,7 +35,7 @@ import diya from './Assets/teami/diyaNew.jpg';
 import vivien from './Assets/teami/vivien.jpg';
 import caroline from './Assets/teami/caroline.jpg';
 import jinju from './Assets/teami/jinju.jpg';
-import rakesh from './Assets/teami/rakesh.jpg';
+import rakesh from './Assets/teami/DSC_9748.jpg';
 import travis from './Assets/teami/travis.jpg';
 import sherry from './Assets/teami/sherry.jpg';
 
