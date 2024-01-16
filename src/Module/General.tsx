@@ -15,7 +15,6 @@ import jbhunt from './Assets/sponsorsLogos/jbhunt.png';
 import cci from './Assets/sponsorsLogos/CCI.png';
 import costar from './Assets/sponsorsLogos/costar.png';
 
-
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -38,8 +37,7 @@ import caroline from './Assets/teami/caroline.jpg';
 import jinju from './Assets/teami/jinju.jpg';
 import rakesh from './Assets/teami/rakesh.jpg';
 import travis from './Assets/teami/travis.jpg';
-import sherry from './Assets/teami/notAvailable.png';
-
+import sherry from './Assets/teami/sherry.jpg';
 
 /*
  *  Text and links on home page
