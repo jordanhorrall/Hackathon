@@ -50,11 +50,12 @@ const TOP_SECTION = {
   // IMG_SRC:
   //   'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg'
   // DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
+  VOLUNTEER_LINK: 'https://forms.office.com/r/A2agfzyR6Q',
   JUDGES_FORM_LINK:
-    'https://docs.google.com/forms/d/e/1FAIpQLScOrci8ahCUDCgqBUawxK9HB0PelOTtFAS-WBkFUlzUEl5EWg/viewform',
+    'https://forms.gle/5gNemNdZvoWhD8aw9',
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
   MENTORSHIP_LINK:
-    'https://docs.google.com/forms/d/e/1FAIpQLSfu_HG62UdZ1UdHMsLpkm-zuhoi9BJouUT3zyuPl69xmsq3Ug/viewform'
+    'https://forms.gle/LkEoW5mM8fmCzaQY8'
   // RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
   // DEVPOST: 'http://hackviolet2023.devpost.com/'
 };

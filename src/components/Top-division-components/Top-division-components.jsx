@@ -34,7 +34,15 @@ function Myinfo() {
           {' '}
           <Btn
             class="register"
-            type="Register Now!"
+            type="Hacker Registration"
+            overlay="Registration here💫"
+          />
+        </a>
+        <a href={TOP_SECTION.VOLUNTEER_LINK}>
+          {' '}
+          <Btn
+            class="register"
+            type="Volunteer Registration"
             overlay="Registration here💫"
           />
         </a>
@@ -44,7 +52,7 @@ function Myinfo() {
           {' '}
           <Btn
             class="sponsor_btn"
-            type="Become a judge"
+            type="Judge Application"
             overlay="Apply here✨"
           />
         </a>
@@ -53,7 +61,7 @@ function Myinfo() {
           {' '}
           <Btn
             class="register"
-            type="Become a mentor"
+            type="Mentor Application"
             overlay="Apply here🤝🏼"
           />
         </a>
