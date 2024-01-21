@@ -51,11 +51,9 @@ const TOP_SECTION = {
   //   'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg'
   // DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
   VOLUNTEER_LINK: 'https://forms.office.com/r/A2agfzyR6Q',
-  JUDGES_FORM_LINK:
-    'https://forms.gle/5gNemNdZvoWhD8aw9',
+  JUDGES_FORM_LINK: 'https://forms.gle/5gNemNdZvoWhD8aw9',
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
-  MENTORSHIP_LINK:
-    'https://forms.gle/LkEoW5mM8fmCzaQY8'
+  MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8'
   // RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
   // DEVPOST: 'http://hackviolet2023.devpost.com/'
 };
@@ -212,10 +210,17 @@ const Prizeinfo = [
     },
     {
       icon: <i className="fas fa-4x first fa-keyboard"></i>,
-      type: 'Best First Time',
+      type: 'Best First Time (1st)',
       //prize1: 'Prize: Tile Combo 4 Pack',
       content:
         'This prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
+    },
+    {
+      icon: <i className="fas fa-4x sixth fa-code"></i>,
+      type: 'Best First Time (2nd)',
+      //prize1: 'Prize: Tile Combo 4 Pack',
+      content:
+        'This second place prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
     }
   ]
   // [
