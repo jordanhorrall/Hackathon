@@ -9,7 +9,7 @@ import leidos from './Assets/sponsorsLogos/leidos.png';
 import rsm from './Assets/sponsorsLogos/rsmt.png';
 import cipher from './Assets/sponsorsLogos/cipher.png';
 import geico from './Assets/sponsorsLogos/geico.png';
-import captech from './Assets/sponsorsLogos/captech.png';
+import capone from './Assets/sponsorsLogos/capone.png';
 import ozmo from './Assets/sponsorsLogos/ozmo.png';
 import jbhunt from './Assets/sponsorsLogos/jbhunt.png';
 import cci from './Assets/sponsorsLogos/CCI.png';
@@ -222,57 +222,67 @@ const Prizeinfo = [
       content:
         'This second place prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
     }
-  ]
-  // [
-  //   //Array 3
-  //   {
-  //     icon: <i className="fas fa-4x sixth fa-seedling"></i>,
-  //     type: 'Best Data-Driven Hack',
-  //     //prize1: 'Prize: Airpods Pro 2',
-  //     content:
-  //       'This prize is awarded the team whose project utilizes dataset(s) to provide valuable insights using AI/ML/data analytics concepts and/or data visualization techniques/software.'
-  //   }
-  // {
-  //   icon: <i className="fas fa-4x first fa-keyboard"></i>,
-  //   type: 'Best Web Hack Using Flask Sponsored by Peraton',
-  //   prize1:
-  //     'Prize: Peraton branded backpacks, swag, and a $100 Amazon giftcard',
-  //   content:
-  //     'This prize is awarded to the team whose project made the best use of Flask, the Python web framework.'
-  // },
-  // {
-  //   icon: <i className="fas fa-4x seventh fa-bug"></i>,
-  //   type: 'Most Innovative Sponsored by Bloomberg',
-  //   prize1: 'Prize: Nintendo Switch',
-  //   content:
-  //     "This prize is awarded to the team whose project exemplifies Bloomberg's value of Innovation. Think bigger, see the world differently, and constantly challenge the status quo."
-  // }
-  //]
-  // [
-  //   //Array 4
-  //   {
-  //     icon: <i className="fas fa-4x sixth fa-code"></i>,
-  //     type: 'Best Design Sponsored by RSM',
-  //     prize1: 'Prize: Wifi Pineapple by Hak5',
-  //     content:
-  //       'This prize is awarded to the team that shows the most interesting implementation of a database, either through its unique design of its usefulness in the application. This prize is open to all coding languages!'
-  //   },
-  //   {
-  //     icon: <i className="fas fa-4x fifth fa-robot"></i>,
-  //     type: 'Best Diversity, Inclusion, and Belonging Hack Sponsored by CapTech',
-  //     prize1: 'Prize: CapTech Swag Bags',
-  //     content:
-  //       'This prize is awarded to the team who creates the best hack to promote diversity, inclusion and belonging.'
-  //   },
+  ],
+  [
+    //Array 1
+    {
+      icon: <i className="first fas fa-4x fa-microchip"></i>,
+      type: 'Best Domain Name from GoDaddy',
+      // prize1: '1st place: iPad 10.2 Inch & Apple Pencil',
+      // prize2: '2nd place: Nintendo Switch Lite',
+      content:
+        'The MLH sponsored prize for the best domain name is: Hack from Home Kit'
+    },
+    {
+      icon: <i className=" second fas fa-4x fa-network-wired"></i>,
+      type: 'Best Use of Kintone',
+      // prize1: '1st place: BenQ 27 in. Monitor',
+      // prize2: '2nd place: Sonos Roam Smart Speaker',
+      content:
+        'The MLH sponsored prize for best use of kintone is: Breadboard IoT Kit'
+    },
+    {
+      icon: <i className=" third fas fa-4x fa-cube"></i>,
+      type: 'Best Use of Flow',
+      // prize1: '1st place: Microsoft Surface Go 3',
+      // prize2: '2nd place: Bose QuietComfort 45',
+      content:
+        'The MLH sponsored prize for the best use of flow is: $200 USD of credits'
+    }
+  ],
+  [
+    //Array 4
+    {
+      icon: <i className="fas fa-4x second fa-cloud"></i>,
+      type: 'Best Use of Google Cloud Startup',
+      content: 'The MLH sponsored prize for the best use of Google Cloud Startup is: Google Cloud Backpack '
+      // content:
+      //   'MLH prize.'
+    },
+    {
+      icon: <i className="fas fa-4x sixth fa-user-secret"></i>,
+      type: 'Best Use of TinyMCE',
+      content: 'The MLH sponsored prize for the best use of TinyMCE is: 3D Printing Pen'
+      // content:
+      //   'MLH prize.'
+    }
+    ,
+    {
+      icon: <i className="fas fa-4x fifth fa-folder"></i>,
+      type: 'Best AI Application Built with Cloudflare',
+      content: 'The MLH sponsored prize for the best AI application built with Cloudflare is: Arduino Kit'
+      // content:
+      //   'MLH prize.'
+    }
 
-  //   {
-  //     icon: <i className="fas fa-4x eighth fa-microscope"></i>,
-  //     type: 'Best Digital Forensics Related Hack Sponsored by Cipher Tech',
-  //     prize1: 'Prize: $100 in Amazon giftcards and Cipher Tech Swag bags',
-  //     content:
-  //       'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
-  //   }
-  // ]
+    // {
+    //   icon: <i className="fas fa-4x eighth fa-microscope"></i>,
+    //   type: 'Best Digital Forensics Related Hack Sponsored by Cipher Tech',
+    //   prize1: 'Prize: $100 in Amazon giftcards and Cipher Tech Swag bags',
+    //   content:
+    //     'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
+    // }
+  ]
 ];
 
 /** Instructions
@@ -470,7 +480,8 @@ const violet = [
   // [{src: geico}, {src: captech}, {src: cipher}], //Array 2 - silver
   // [{src: cci}, {src: bloomberg}] //Array 3 - bronze
   [{src: peraton}, {src: geico}, {src: costar}],
-  [{src: jbhunt}, {src: cci}, {src: ozmo}]
+  [{src: jbhunt}, {src: cci}, {src: ozmo}],
+  [{src:capone}]
 ];
 
 /** Instructions
