@@ -224,6 +224,13 @@ const Prizeinfo = [
     }
   ],
   [
+    {
+      icon: <i className="fas fa-4x fifth fa-palette"></i>,
+      type: 'Best UI/UX',
+      //prize1: 'Prize: Tile Combo 4 Pack',
+      content:
+        'This prize is awarded to the team whose project had the most intuitive, user-friendly, and aesthetic UX/UI design.'
+    },
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-microchip"></i>,
@@ -240,7 +247,10 @@ const Prizeinfo = [
       // prize2: '2nd place: Sonos Roam Smart Speaker',
       content:
         'The MLH sponsored prize for best use of kintone is: Breadboard IoT Kit'
-    },
+    }
+  ],
+  [
+    //Array 4
     {
       icon: <i className=" third fas fa-4x fa-cube"></i>,
       type: 'Best Use of Flow',
@@ -248,32 +258,24 @@ const Prizeinfo = [
       // prize2: '2nd place: Bose QuietComfort 45',
       content:
         'The MLH sponsored prize for the best use of flow is: $200 USD of credits'
-    }
-  ],
-  [
-    //Array 4
+    },
     {
       icon: <i className="fas fa-4x second fa-cloud"></i>,
       type: 'Best Use of Google Cloud Startup',
-      content: 'The MLH sponsored prize for the best use of Google Cloud Startup is: Google Cloud Backpack '
+      content:
+        'The MLH sponsored prize for the best use of Google Cloud Startup is: Google Cloud Backpack '
       // content:
       //   'MLH prize.'
     },
     {
       icon: <i className="fas fa-4x sixth fa-user-secret"></i>,
       type: 'Best Use of TinyMCE',
-      content: 'The MLH sponsored prize for the best use of TinyMCE is: 3D Printing Pen'
+      content:
+        'The MLH sponsored prize for the best use of TinyMCE is: 3D Printing Pen'
       // content:
       //   'MLH prize.'
     }
-    ,
-    {
-      icon: <i className="fas fa-4x fifth fa-folder"></i>,
-      type: 'Best AI Application Built with Cloudflare',
-      content: 'The MLH sponsored prize for the best AI application built with Cloudflare is: Arduino Kit'
-      // content:
-      //   'MLH prize.'
-    }
+    
 
     // {
     //   icon: <i className="fas fa-4x eighth fa-microscope"></i>,
@@ -282,7 +284,15 @@ const Prizeinfo = [
     //   content:
     //     'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
     // }
-  ]
+  ],
+  [{
+    icon: <i className="fas fa-4x fifth fa-folder"></i>,
+    type: 'Best AI Application Built with Cloudflare',
+    content:
+      'The MLH sponsored prize for the best AI application built with Cloudflare is: Arduino Kit'
+    // content:
+    //   'MLH prize.'
+  }]
 ];
 
 /** Instructions
@@ -481,7 +491,7 @@ const violet = [
   // [{src: cci}, {src: bloomberg}] //Array 3 - bronze
   [{src: peraton}, {src: geico}, {src: costar}],
   [{src: jbhunt}, {src: cci}, {src: ozmo}],
-  [{src:capone}]
+  [{src: capone}]
 ];
 
 /** Instructions
