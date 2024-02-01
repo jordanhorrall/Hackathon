@@ -177,7 +177,7 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: 'Best Overall (1st)',
-      // prize1: '1st place: iPad 10.2 Inch & Apple Pencil',
+       prize1: 'Prize: Silver Apple IPad (10th Gen)',
       // prize2: '2nd place: Nintendo Switch Lite',
       content:
         'This prize is awarded to the team whose project excelled in all areas of judging.'
@@ -186,14 +186,14 @@ const Prizeinfo = [
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: 'Best Overall (2nd) ',
       // prize1: '1st place: BenQ 27 in. Monitor',
-      // prize2: '2nd place: Sonos Roam Smart Speaker',
+      prize2: 'Prize: Keychron K4 Pro + Logitech Mouse',
       content:
         'This second place prize is awarded to the team whose project excelled in all areas of judging.'
     },
     {
       icon: <i className=" third fas fa-4x fa-venus"></i>,
       type: 'Best Hack to Support Women (1st)',
-      // prize1: '1st place: Microsoft Surface Go 3',
+      prize1: 'Prize: Black Sony-WH1000XM5 Headphones',
       // prize2: '2nd place: Bose QuietComfort 45',
       content:
         'This first place prize is awarded to the team whose project creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
@@ -204,21 +204,21 @@ const Prizeinfo = [
     {
       icon: <i className=" fourth fas fa-4x fa-hand-holding-heart"></i>,
       type: 'Best Hack to Support Women (2nd)',
-      // prize1: 'Prize: Amazon Gift Card',
+       prize1: 'Prize: Meta Quest 2 Virtual Reality Headset',
       content:
         'This second place prize is awarded to the team whose project creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
     },
     {
       icon: <i className="fas fa-4x first fa-keyboard"></i>,
       type: 'Best First Time (1st)',
-      //prize1: 'Prize: Tile Combo 4 Pack',
+      prize1: 'Prize: Samsung Odyssey Gaming Monitor',
       content:
         'This prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
     },
     {
       icon: <i className="fas fa-4x sixth fa-code"></i>,
       type: 'Best First Time (2nd)',
-      //prize1: 'Prize: Tile Combo 4 Pack',
+      prize1: 'Prize: Black Ultimate Ears Wonderboom 3 Speaker',
       content:
         'This second place prize is awarded to a team composed entirely of first time hackers whose project excelled in all areas of judging.'
     }
@@ -226,12 +226,18 @@ const Prizeinfo = [
   [
     {
       icon: <i className="fas fa-4x fifth fa-palette"></i>,
-      type: 'Best UI/UX',
-      //prize1: 'Prize: Tile Combo 4 Pack',
+      type: 'Best UI/UX (1st)',
+      prize1: 'Prize: Fujifilm Instax Printer + Film Pack',
       content:
         'This prize is awarded to the team whose project had the most intuitive, user-friendly, and aesthetic UX/UI design.'
     },
-    //Array 1
+    {
+      icon: <i className="fas fa-4x ninth fa-brush"></i>,
+      type: 'Best UI/UX (2nd)',
+      prize1: 'Prize: Google Cloud Patagonia Backpack',
+      content:
+        'This second place prize is awarded to the team whose project had the most intuitive, user-friendly, and aesthetic UX/UI design.'
+    },
     {
       icon: <i className="first fas fa-4x fa-microchip"></i>,
       type: 'Best Domain Name from GoDaddy',
@@ -239,7 +245,12 @@ const Prizeinfo = [
       // prize2: '2nd place: Nintendo Switch Lite',
       content:
         'The MLH sponsored prize for the best domain name is: Hack from Home Kit'
-    },
+    }
+    
+  ],
+  [
+    //Array 4
+    
     {
       icon: <i className=" second fas fa-4x fa-network-wired"></i>,
       type: 'Best Use of Kintone',
@@ -247,10 +258,7 @@ const Prizeinfo = [
       // prize2: '2nd place: Sonos Roam Smart Speaker',
       content:
         'The MLH sponsored prize for best use of kintone is: Breadboard IoT Kit'
-    }
-  ],
-  [
-    //Array 4
+    },
     {
       icon: <i className=" third fas fa-4x fa-cube"></i>,
       type: 'Best Use of Flow',
@@ -266,7 +274,11 @@ const Prizeinfo = [
         'The MLH sponsored prize for the best use of Google Cloud Startup is: Google Cloud Backpack '
       // content:
       //   'MLH prize.'
-    },
+    }
+
+  ],
+  [
+    
     {
       icon: <i className="fas fa-4x sixth fa-user-secret"></i>,
       type: 'Best Use of TinyMCE',
@@ -274,25 +286,34 @@ const Prizeinfo = [
         'The MLH sponsored prize for the best use of TinyMCE is: 3D Printing Pen'
       // content:
       //   'MLH prize.'
+    },
+    {
+      icon: <i className="fas fa-4x fifth fa-folder"></i>,
+      type: 'Best AI Application Built with Cloudflare',
+      content:
+        'The MLH sponsored prize for the best AI application built with Cloudflare is: Arduino Kit'
+      // content:
+      //   'MLH prize.'
+    },
+    {
+      icon: <i className="fas fa-4x third fa-tree"></i>,
+      type: 'JB Hunt: Best implementation of a RESTful Web Service using Spring Boot and Docker',
+      content:
+        'JB Hunt Sponsored Prize: AirPod Pros (latest gen), Ender 3 Neo 3-D Printer, Streaming Package (includes a stream deck, condenser mic, and webcam), Logitech Desktop Setup (Logi MX Master 3s & MX Mechanical Keyboard)'
+      // content:
+      //   'MLH prize.'
     }
-    
-
-    // {
-    //   icon: <i className="fas fa-4x eighth fa-microscope"></i>,
-    //   type: 'Best Digital Forensics Related Hack Sponsored by Cipher Tech',
-    //   prize1: 'Prize: $100 in Amazon giftcards and Cipher Tech Swag bags',
-    //   content:
-    //     'This prize is awarded to the team who designs the best application that pertains in some way to digital forensics.'
-    // }
   ],
-  [{
-    icon: <i className="fas fa-4x fifth fa-folder"></i>,
-    type: 'Best AI Application Built with Cloudflare',
+  [
+    { icon: <i className="fas fa-4x  fa-spider"></i>,
+    type: 'Peraton Challenge: Best Web App Using React',
     content:
-      'The MLH sponsored prize for the best AI application built with Cloudflare is: Arduino Kit'
+      'This Peraton sponsored prize is awarded to the team that creates the best React web application.'
     // content:
     //   'MLH prize.'
-  }]
+  }
+
+  ]
 ];
 
 /** Instructions
