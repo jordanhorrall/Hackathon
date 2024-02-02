@@ -39,7 +39,7 @@ import rakesh from './Assets/teami/DSC_9748.jpg';
 import travis from './Assets/teami/travis.jpg';
 import sherry from './Assets/teami/sherry.jpg';
 
-import sched from './Assets/sched.pdf';
+//import sched from './Assets/sched.pdf';
 /*
  *  Text and links on home page
  */
@@ -55,7 +55,7 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK: 'https://forms.gle/5gNemNdZvoWhD8aw9',
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
   MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8',
-  RUN_OF_SHOW: sched,
+  //RUN_OF_SHOW: sched
   // DEVPOST: 'http://hackviolet2023.devpost.com/'
 };
 
@@ -301,7 +301,6 @@ const Prizeinfo = [
       // content:
       //   'MLH prize.'
     }
-    
   ],
   [
     {
@@ -313,11 +312,11 @@ const Prizeinfo = [
       //   'MLH prize.'
     },
     {
-      icon: <i className="fas fa-4x third fa-tree"></i>,
+      icon: <i className="fas fa-4x seventh fa-home"></i>,
       type: 'Costar: Off-Campus Housing Hack',
       content:
         'Come up with a platform that reinvents the off-campus housing process that takes into consideration the perspective of the landlord and/or the student renter.',
-        prize1: 'Costar Sponsored Prize: Apple Watches'
+      prize1: 'Costar Sponsored Prize: Apple Watches'
     }
   ]
 ];

@@ -48,14 +48,14 @@ function Myinfo() {
         </a>
       </div>
       <div className="buttom-group">
-        <a href={TOP_SECTION.RUN_OF_SHOW}>
+        {/* <a href={TOP_SECTION.RUN_OF_SHOW}>
           {' '}
           <Btn
             class="sponsor_btn"
             type="2024 Schedule"
             overlay="Download here✨"
           />
-        </a>
+        </a> */}
 
         <a href={TOP_SECTION.DISCORD_LINK}>
           {' '}
