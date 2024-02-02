@@ -55,8 +55,8 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK: 'https://forms.gle/5gNemNdZvoWhD8aw9',
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
   MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8',
-  //RUN_OF_SHOW: sched
-  // DEVPOST: 'http://hackviolet2023.devpost.com/'
+  RUN_OF_SHOW: 'https://docs.google.com/document/d/12OlRr8dX-g7zh_VeL7tcZXqZyvSqujwNXNxAcaN6X10/edit?usp=sharing',
+  DEVPOST: 'https://hackviolet2024.devpost.com/'
 };
 
 /*
@@ -67,7 +67,7 @@ const SOCIALS = {
   discord: 'https://discord.gg/8vgv8G5J',
   linkedin: 'https://www.linkedin.com/company/hackviolet-vt/',
   twitter: 'https://twitter.com/hackvioletvt',
-  devpost: 'http://hackviolet2023.devpost.com/',
+  devpost: 'https://hackviolet2024.devpost.com/',
   email: 'mailto:hackvioletvt@gmail.com',
   mail: 'hackvioletvt@gmail.com'
 };
