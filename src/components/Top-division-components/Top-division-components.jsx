@@ -48,21 +48,21 @@ function Myinfo() {
         </a>
       </div>
       <div className="buttom-group">
-        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+        <a href={TOP_SECTION.RUN_OF_SHOW}>
           {' '}
           <Btn
             class="sponsor_btn"
-            type="Judge Application"
-            overlay="Apply here✨"
+            type="2024 Schedule"
+            overlay="Download here✨"
           />
         </a>
 
-        <a href={TOP_SECTION.MENTORSHIP_LINK}>
+        <a href={TOP_SECTION.DISCORD_LINK}>
           {' '}
           <Btn
             class="register"
-            type="Mentor Application"
-            overlay="Apply here🤝🏼"
+            type="Join our Discord"
+            overlay="Join here🤝🏼"
           />
         </a>
       </div>

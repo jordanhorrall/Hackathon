@@ -39,6 +39,7 @@ import rakesh from './Assets/teami/DSC_9748.jpg';
 import travis from './Assets/teami/travis.jpg';
 import sherry from './Assets/teami/sherry.jpg';
 
+import sched from './Assets/sched.pdf';
 /*
  *  Text and links on home page
  */
@@ -49,12 +50,12 @@ const TOP_SECTION = {
     'Join us February 3-4 2024 at the Virginia Tech campus for a weekend of innovation and fun!',
   // IMG_SRC:
   //   'https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg'
-  // DISCORD_LINK: 'https://discord.gg/3h9pQuthfK',
+  DISCORD_LINK: 'https://discord.gg/8vgv8G5J',
   VOLUNTEER_LINK: 'https://forms.office.com/r/A2agfzyR6Q',
   JUDGES_FORM_LINK: 'https://forms.gle/5gNemNdZvoWhD8aw9',
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
-  MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8'
-  // RUN_OF_SHOW: 'https://www.instagram.com/p/CoNBu4bONj5/?hl=en',
+  MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8',
+  RUN_OF_SHOW: sched,
   // DEVPOST: 'http://hackviolet2023.devpost.com/'
 };
 
@@ -63,7 +64,7 @@ const TOP_SECTION = {
  */
 const SOCIALS = {
   instagram: 'https://www.instagram.com/hackvioletvt/',
-  //discord: 'https://discord.gg/3h9pQuthfK',
+  discord: 'https://discord.gg/8vgv8G5J',
   linkedin: 'https://www.linkedin.com/company/hackviolet-vt/',
   twitter: 'https://twitter.com/hackvioletvt',
   devpost: 'http://hackviolet2023.devpost.com/',
@@ -177,7 +178,7 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: 'Best Overall (1st)',
-       prize1: 'Prize: Silver Apple IPad (10th Gen)',
+      prize1: 'Prize: Silver Apple IPad (10th Gen)',
       // prize2: '2nd place: Nintendo Switch Lite',
       content:
         'This prize is awarded to the team whose project excelled in all areas of judging.'
@@ -204,7 +205,7 @@ const Prizeinfo = [
     {
       icon: <i className=" fourth fas fa-4x fa-hand-holding-heart"></i>,
       type: 'Best Hack to Support Women (2nd)',
-       prize1: 'Prize: Meta Quest 2 Virtual Reality Headset',
+      prize1: 'Prize: Meta Quest 2 Virtual Reality Headset',
       content:
         'This second place prize is awarded to the team whose project creatively tackle issues that women face, aids female-empowerment, combats the gender gap in tech, etc.'
     },
@@ -246,11 +247,10 @@ const Prizeinfo = [
       content:
         'The MLH sponsored prize for the best domain name is: Hack from Home Kit'
     }
-    
   ],
   [
     //Array 4
-    
+
     {
       icon: <i className=" second fas fa-4x fa-network-wired"></i>,
       type: 'Best Use of Kintone',
@@ -275,10 +275,8 @@ const Prizeinfo = [
       // content:
       //   'MLH prize.'
     }
-
   ],
   [
-    
     {
       icon: <i className="fas fa-4x sixth fa-user-secret"></i>,
       type: 'Best Use of TinyMCE',
@@ -296,23 +294,31 @@ const Prizeinfo = [
       //   'MLH prize.'
     },
     {
-      icon: <i className="fas fa-4x third fa-tree"></i>,
-      type: 'JB Hunt: Best implementation of a RESTful Web Service using Spring Boot and Docker',
+      icon: <i className="fas fa-4x  fa-spider"></i>,
+      type: 'Peraton: Best Web App Using React',
       content:
-        'JB Hunt Sponsored Prize: AirPod Pros (latest gen), Ender 3 Neo 3-D Printer, Streaming Package (includes a stream deck, condenser mic, and webcam), Logitech Desktop Setup (Logi MX Master 3s & MX Mechanical Keyboard)'
+        'This Peraton sponsored prize is awarded to the team that creates the best React web application.'
       // content:
       //   'MLH prize.'
     }
+    
   ],
   [
-    { icon: <i className="fas fa-4x  fa-spider"></i>,
-    type: 'Peraton Challenge: Best Web App Using React',
-    content:
-      'This Peraton sponsored prize is awarded to the team that creates the best React web application.'
-    // content:
-    //   'MLH prize.'
-  }
-
+    {
+      icon: <i className="fas fa-4x third fa-tree"></i>,
+      type: 'J.B. Hunt: Best implementation of a RESTful Web Service using Spring Boot and Docker',
+      content:
+        'J.B. Hunt Sponsored Prize: AirPod Pros (latest gen), Ender 3 Neo 3-D Printer, Streaming Package (includes a stream deck, condenser mic, and webcam), Logitech Desktop Setup (Logi MX Master 3s & MX Mechanical Keyboard)'
+      // content:
+      //   'MLH prize.'
+    },
+    {
+      icon: <i className="fas fa-4x third fa-tree"></i>,
+      type: 'Costar: Off-Campus Housing Hack',
+      content:
+        'Come up with a platform that reinvents the off-campus housing process that takes into consideration the perspective of the landlord and/or the student renter.',
+        prize1: 'Costar Sponsored Prize: Apple Watches'
+    }
   ]
 ];
 
