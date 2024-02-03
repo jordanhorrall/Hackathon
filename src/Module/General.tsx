@@ -56,7 +56,7 @@ const TOP_SECTION = {
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
   MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8',
   RUN_OF_SHOW:
-    'https://docs.google.com/document/d/12OlRr8dX-g7zh_VeL7tcZXqZyvSqujwNXNxAcaN6X10/edit?usp=sharing',
+    'https://docs.google.com/document/d/1LbNHSdE_s0s5jywfHdTzJ196m3q6-DBIQfrI796SaeY/edit#heading=h.ov9dkwy7vvr',
   DEVPOST: 'https://hackviolet2024.devpost.com/',
   JUDGE_PREF_FORM: 'https://forms.gle/WDKU9zPkwo7ZGvSs8'
 };
@@ -324,8 +324,7 @@ const Prizeinfo = [
     {
       icon: <i className="fas fa-4x sixth fa-credit-card"></i>,
       type: 'Capital One: Best Financial Hack',
-      content:
-        'Capital One Sponsored Prize: $250 Amazon Giftcard.'
+      content: 'Capital One Sponsored Prize: $250 Amazon Giftcard.'
     }
   ]
 ];
