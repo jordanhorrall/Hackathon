@@ -55,8 +55,10 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK: 'https://forms.gle/5gNemNdZvoWhD8aw9',
   HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/3xDlbJ',
   MENTORSHIP_LINK: 'https://forms.gle/LkEoW5mM8fmCzaQY8',
-  RUN_OF_SHOW: 'https://docs.google.com/document/d/12OlRr8dX-g7zh_VeL7tcZXqZyvSqujwNXNxAcaN6X10/edit?usp=sharing',
-  DEVPOST: 'https://hackviolet2024.devpost.com/'
+  RUN_OF_SHOW:
+    'https://docs.google.com/document/d/12OlRr8dX-g7zh_VeL7tcZXqZyvSqujwNXNxAcaN6X10/edit?usp=sharing',
+  DEVPOST: 'https://hackviolet2024.devpost.com/',
+  JUDGE_PREF_FORM: 'https://forms.gle/WDKU9zPkwo7ZGvSs8'
 };
 
 /*
