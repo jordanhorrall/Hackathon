@@ -319,6 +319,13 @@ const Prizeinfo = [
       content:
         'Come up with a platform that reinvents the off-campus housing process that takes into consideration the perspective of the landlord and/or the student renter.',
       prize1: 'Costar Sponsored Prize: Apple Watches'
+    },
+    ,
+    {
+      icon: <i className="fas fa-4x sixth fa-credit-card"></i>,
+      type: 'Capital One: Best Financial Hack',
+      content:
+        'Capital One Sponsored Prize: $250 Amazon Giftcard.'
     }
   ]
 ];
